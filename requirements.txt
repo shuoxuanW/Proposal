@@ -1,0 +1,16 @@
+numpy
+matplotlib
+networkx
+pillow
+pydantic
+openai
+requests
+python-docx
+python-pptx
+markdown
+pyyaml
+fastapi
+uvicorn
+fastembed
+onnxruntime
+rank-bm25

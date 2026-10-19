@@ -1,0 +1,16 @@
+{
+  "title": "机器视觉光路示意图图例规范",
+  "version": "1.0",
+  "styles": {
+    "platform_color": "#3c3c3c",
+    "optical_path_color": "#d62728",
+    "optical_path_linestyle": "dashed",
+    "object_color": "#4a90d9",
+    "light_color": "#fafafa",
+    "illumination_color": "#e8a020",
+    "angle_color": "#e07b39",
+    "dimension_color": "#555555"
+  },
+  "elements": ["相机(竖直)", "镜头", "竖直虚线光路", "蓝色检测物", "条形光源(倾斜)", "基准平台", "尺寸标注", "角度标注"],
+  "notes": "光路红色虚线+箭头；检测物蓝色；照明光线橙色虚线；角度橙色弧线；尺寸竖向双箭头"
+}

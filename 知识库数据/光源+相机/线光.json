@@ -1,0 +1,13 @@
+{
+  "device_type": "light_source",
+  "name": "线光",
+  "brand": "",
+  "description": "线光",
+  "params": {},
+  "tags": [
+    "light_source"
+  ],
+  "view": "",
+  "angle": "",
+  "color": ""
+}

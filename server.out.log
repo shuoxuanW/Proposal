@@ -1,0 +1,36 @@
+INFO:     127.0.0.1:25914 - "GET /health HTTP/1.1" 200 OK
+== 机器视觉解决方案书自动生成系统 ==
+  LLM: mock | 文本知识库: 300 块 | 图片库: 54 张（类型: camera, light_source）
+  [需求解析Agent] 解析需求，拆解任务…
+  项目：金属工件表面缺陷检测视觉方案 | 设备 6 类 | 章节 8 | 图 3
+  命中历史案例：proposals/金属工件表面缺陷检测方案范文.md、proposals/金属加工件螺纹牙套视觉检测方案.md、proposals/东磁焊接夹紧AOI视觉检测方案.md
+  [方案撰写Agent] 撰写方案正文（8 个章节）…
+  [绘图Agent] 生成 3 张图纸…
+  [绘图Agent] 命中历史工位图：铨讯-陶瓷片尺寸检测方案-0514 RevB_slide5（0.592）
+  [校验审核Agent] 校验图文一致性…
+  [汇总输出Agent] 组装方案书并导出…
+  [PPT] 第4页客户需求：整页重建，已插入产品图 workpiece-1.png
+  [PPT] 第5页检测说明：已插入检测示意图 detection-1.png
+  [PPT] 新增「设备选型建议」页（5 条）
+  [PPT] 第6页打光示意图：已插入工位架构图 optic-1.png
+  校验：通过（0 条）
+  输出目录：D:\20261012\output\20261017-134540-金属工件表面缺陷检测视觉方案
+    - markdown: proposal.md
+    - html: proposal.html
+    - docx: proposal.docx
+    - pdf: proposal.pdf
+    - pptx: proposal.pptx
+    - planning: 规划文档.md
+INFO:     127.0.0.1:22910 - "POST /generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41173 - "GET /web/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11697 - "GET /web/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1806 - "GET / HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:1806 - "GET /web/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1806 - "GET /web/style.css?v=20261017 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45806 - "GET /web/app.js?v=20261017 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1806 - "GET /kb/stats HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1806 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:3088 - "POST /kb/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3089 - "POST /kb/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3090 - "POST /kb/query HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3091 - "POST /kb/query HTTP/1.1" 200 OK

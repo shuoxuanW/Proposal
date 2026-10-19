@@ -1,0 +1,123 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "顶部中央，垂直安装",
+      "parent_group": "安装示意图"
+    },
+    {
+      "name": "镜头",
+      "position": "位于相机下方，与相机同轴连接",
+      "parent_group": "安装示意图"
+    },
+    {
+      "name": "光源",
+      "position": "位于被测物上方，呈半球形环状结构，标注为‘光源’",
+      "parent_group": "安装示意图"
+    },
+    {
+      "name": "被测物",
+      "position": "底部中央，矩形块状，蓝色填充",
+      "parent_group": "安装示意图"
+    },
+    {
+      "name": "规格参数表",
+      "position": "左侧表格区域，含六行两列：规格/参数",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源",
+      "target": "被测物",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "YD Vision For Better Service；unit: mm；200±20；130±10；安装示意图",
+  "meta": {
+    "schema_version": 1,
+    "project": "20260612诠讯焊锡AOI缺陷检测",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "20260612",
+      "诠讯焊锡",
+      "AOI",
+      "缺陷检测",
+      "slide5",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "unit",
+      "mm",
+      "200",
+      "20",
+      "130",
+      "10",
+      "安装示意图",
+      "相机",
+      "顶部中央",
+      "垂直安装",
+      "镜头",
+      "位于相机下方",
+      "与相机同轴连接",
+      "光源",
+      "位于被测物上方",
+      "呈半球形环状结构",
+      "标注为",
+      "被测物",
+      "底部中央",
+      "矩形块状",
+      "蓝色填充",
+      "规格参数表",
+      "左侧表格区域",
+      "含六行两列",
+      "规格",
+      "参数"
+    ],
+    "source_file": "20260612诠讯焊锡AOI缺陷检测_slide5.png",
+    "reextracted_at": "2026-10-19T09:19:17",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "环形",
+      "angle": "",
+      "distance_to_object": "130±10mm",
+      "adjustable": false,
+      "position": "位于镜头下方，环绕光轴"
+    },
+    {
+      "name": "光源2",
+      "type": "圆顶",
+      "angle": "",
+      "distance_to_object": "130±10mm",
+      "adjustable": false,
+      "position": "位于镜头下方，覆盖被测物上方"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "device_type": "light_source",
+  "name": "红色平面无影光源",
+  "brand": "",
+  "description": "红色平面无影光源",
+  "params": {},
+  "tags": [
+    "light_source"
+  ],
+  "view": "",
+  "angle": "",
+  "color": "红"
+}

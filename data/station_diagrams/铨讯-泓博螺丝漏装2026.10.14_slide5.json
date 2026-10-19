@@ -1,0 +1,101 @@
+{
+  "drawing_type": "打光示意图-定位工站",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "上方左右对称布置两个，位于光源上方",
+      "parent_group": null
+    },
+    {
+      "name": "光源",
+      "position": "底部水平长条形，位于吸塑盘下方",
+      "parent_group": null
+    },
+    {
+      "name": "吸塑盘",
+      "position": "位于光源正上方，蓝色矩形块",
+      "parent_group": null
+    },
+    {
+      "name": "光轴",
+      "position": "两条垂直虚线，分别穿过左右相机中心与吸塑盘中心",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "左相机",
+      "target": "吸塑盘",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "右相机",
+      "target": "吸塑盘",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "左相机",
+      "target": "右相机",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "155±5mm"
+    },
+    {
+      "source": "吸塑盘",
+      "target": "光源",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "690±10mm"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "单位：mm；注：相机视野的长边，需对应吸塑盘的宽边。",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 泓博螺丝漏装2026.10.14",
+    "drawing_type": "打光示意图-定位工站",
+    "keywords": [
+      "铨讯",
+      "泓博螺丝漏装",
+      "2026.10.14_slide5",
+      "打光示意图",
+      "定位工站",
+      "2D",
+      "侧视",
+      "单位",
+      "mm",
+      "相机视野的长边",
+      "需对应吸塑盘的宽边",
+      "相机",
+      "上方左右对称布置两个",
+      "位于光源上方",
+      "光源",
+      "底部水平长条形",
+      "位于吸塑盘下方",
+      "吸塑盘",
+      "位于光源正上方",
+      "蓝色矩形块",
+      "光轴",
+      "两条垂直虚线",
+      "分别穿过左右相机中心与吸塑盘中心"
+    ],
+    "source_file": "铨讯-泓博螺丝漏装2026.10.14_slide5.png",
+    "reextracted_at": "2026-10-19T09:22:52",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "平行导光背光",
+      "type": "背光",
+      "angle": "",
+      "distance_to_object": "690±10mm",
+      "adjustable": false,
+      "position": "位于被测物正下方，沿Z轴方向"
+    }
+  ]
+}

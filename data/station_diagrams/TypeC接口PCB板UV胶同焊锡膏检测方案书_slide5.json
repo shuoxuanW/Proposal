@@ -1,0 +1,97 @@
+{
+  "drawing_type": "系统拓扑图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机: 产品UV胶, 焊锡膏检测",
+      "position": "左上区域，蓝色标注框指向黑色圆柱形相机装置",
+      "parent_group": null
+    },
+    {
+      "name": "光源",
+      "position": "左侧中部，蓝色标注框指向黄色矩形块",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "左下区域，蓝色标注框指向黑色矩形块",
+      "parent_group": null
+    },
+    {
+      "name": "计算机系统",
+      "position": "右上区域，含显示器、主机、键盘、鼠标图标",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机: 产品UV胶, 焊锡膏检测",
+      "target": "计算机系统",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "相机: 产品UV胶, 焊锡膏检测",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "-系统拓扑图\nYD Vision\nFor Better Service\n说明：\n1. 相机进行产品UV胶有无,以及面积检测\n2. 相机进行产品焊锡膏有无,以及面积检测",
+  "meta": {
+    "schema_version": 1,
+    "project": "TypeC接口PCB板UV胶同焊锡膏检测方案书",
+    "drawing_type": "系统拓扑图",
+    "keywords": [
+      "TypeC",
+      "接口",
+      "PCB",
+      "UV",
+      "胶同焊锡膏检测方案书",
+      "slide5",
+      "系统拓扑图",
+      "2D",
+      "侧视",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "说明",
+      "相机进行产品",
+      "胶有无",
+      "以及面积检测",
+      "相机进行产品焊锡膏有无",
+      "相机",
+      "产品",
+      "焊锡膏检测",
+      "左上区域",
+      "蓝色标注框指向黑色圆柱形相机装置",
+      "光源",
+      "左侧中部",
+      "蓝色标注框指向黄色矩形块",
+      "左下区域",
+      "蓝色标注框指向黑色矩形块",
+      "计算机系统",
+      "右上区域",
+      "含显示器",
+      "主机",
+      "键盘",
+      "鼠标图标"
+    ],
+    "source_file": "TypeC接口PCB板UV胶同焊锡膏检测方案书_slide5.png",
+    "reextracted_at": "2026-10-19T09:20:13",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": []
+}

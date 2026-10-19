@@ -1,0 +1,131 @@
+{
+  "drawing_type": "安装示意图-检测工位",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "位于光源自上方，垂直安装于支架顶端",
+      "parent_group": null
+    },
+    {
+      "name": "16mm FA镜头",
+      "position": "安装在相机下方，与相机同轴连接",
+      "parent_group": null
+    },
+    {
+      "name": "640*640mm开孔面光源",
+      "position": "水平放置于产品上方，位于镜头正下方，呈长条矩形结构，内部有红色发光区域示意",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "位于光源正下方，标注为蓝色矩形框内文字“产品”",
+      "parent_group": null
+    },
+    {
+      "name": "视野",
+      "position": "由光源下方至产品表面的投影区域，尺寸标注为410mm*300mm（表中参数）",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "16mm FA镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "16mm FA镜头",
+      "target": "640*640mm开孔面光源",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "640*640mm开孔面光源",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "460±10"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "规格参数表：相机-1200万彩色相机；镜头-16mmFA镜头；光源-640*640mm开孔面光源；视野-410mm*300mm；像素精度-0.1mm/pixel；备注：视野只比产品略大，产品在皮带线上需做限位。单位：mm；光源示意图正视图；Schematic diagram of setup (Front View)；YD Vision For Better Service",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 金属板铆钉检测方案 0529",
+    "drawing_type": "安装示意图-检测工位",
+    "keywords": [
+      "铨讯",
+      "金属板铆钉检测方案",
+      "0529_slide5",
+      "安装示意图",
+      "检测工位",
+      "2D",
+      "侧视",
+      "规格参数表",
+      "相机",
+      "1200",
+      "万彩色相机",
+      "镜头",
+      "16mmFA",
+      "光源",
+      "640",
+      "640mm",
+      "开孔面光源",
+      "视野",
+      "410mm",
+      "300mm",
+      "像素精度",
+      "0.1mm/pixel",
+      "备注",
+      "视野只比产品略大",
+      "产品在皮带线上需做限位",
+      "单位",
+      "mm",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "位于光源自上方",
+      "垂直安装于支架顶端",
+      "16mm",
+      "FA",
+      "安装在相机下方",
+      "与相机同轴连接",
+      "水平放置于产品上方",
+      "位于镜头正下方",
+      "呈长条矩形结构",
+      "内部有红色发光区域示意",
+      "产品",
+      "位于光源正下方",
+      "标注为蓝色矩形框内文字",
+      "由光源下方至产品表面的投影区域",
+      "尺寸标注为",
+      "表中参数"
+    ],
+    "source_file": "铨讯-金属板铆钉检测方案-0529_slide5.png",
+    "reextracted_at": "2026-10-19T09:23:12",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "640*640mm开孔面光源",
+      "type": "面光",
+      "angle": "",
+      "distance_to_object": "460±10mm",
+      "adjustable": false,
+      "position": "正上方，垂直照射产品"
+    }
+  ]
+}

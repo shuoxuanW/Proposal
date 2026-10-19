@@ -1,0 +1,13 @@
+{
+  "device_type": "light_source",
+  "name": "红色条形光源仰视图",
+  "brand": "",
+  "description": "红色条形光源仰视图",
+  "params": {},
+  "tags": [
+    "light_source"
+  ],
+  "view": "仰视图",
+  "angle": "",
+  "color": "红"
+}

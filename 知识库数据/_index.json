@@ -1,0 +1,544 @@
+[
+  {
+    "rel_path": "HK-1200_2.png",
+    "device_type": "camera",
+    "name": "HK-1200_2",
+    "description": "HK-1200_2",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK-1200_4.png",
+    "device_type": "camera",
+    "name": "HK-1200_4",
+    "description": "HK-1200_4",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK-160_2.png",
+    "device_type": "camera",
+    "name": "HK-160_2",
+    "description": "HK-160_2",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK-2500_2.png",
+    "device_type": "camera",
+    "name": "HK-2500_2",
+    "description": "HK-2500_2",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK-2500_4.png",
+    "device_type": "camera",
+    "name": "HK-2500_4",
+    "description": "HK-2500_4",
+    "params": {
+      "备注": "万兆网相机"
+    },
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK-500_2.png",
+    "device_type": "camera",
+    "name": "HK-500_2",
+    "description": "HK-500_2",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK-500_4.png",
+    "device_type": "camera",
+    "name": "HK-500_4",
+    "description": "HK-500_4",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK-500_6.png",
+    "device_type": "camera",
+    "name": "HK-500_6",
+    "description": "HK-500_6",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK-_2.png",
+    "device_type": "camera",
+    "name": "HK-_2",
+    "description": "HK-_2",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK_2.png",
+    "device_type": "camera",
+    "name": "HK_2",
+    "description": "HK_2",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "HK_4.png",
+    "device_type": "camera",
+    "name": "HK_4",
+    "description": "HK_4",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "OPT.png",
+    "device_type": "camera",
+    "name": "OPT",
+    "description": "OPT",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/同轴光源白色.png",
+    "device_type": "light_source",
+    "name": "同轴光源白色",
+    "description": "同轴光源白色",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/同轴光源红色.png",
+    "device_type": "light_source",
+    "name": "同轴光源红色",
+    "description": "同轴光源红色",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/同轴光源蓝色.png",
+    "device_type": "light_source",
+    "name": "同轴光源蓝色",
+    "description": "同轴光源蓝色",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/同轴平行光源.png",
+    "device_type": "light_source",
+    "name": "同轴平行光源",
+    "description": "同轴平行光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/同轴线光.png",
+    "device_type": "light_source",
+    "name": "同轴线光",
+    "description": "同轴线光",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/圆顶光源.png",
+    "device_type": "light_source",
+    "name": "圆顶光源",
+    "description": "圆顶光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/平面同轴光源.png",
+    "device_type": "light_source",
+    "name": "平面同轴光源",
+    "description": "平面同轴光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/点光源.png",
+    "device_type": "light_source",
+    "name": "点光源",
+    "description": "点光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/白色平面无影光源.png",
+    "device_type": "light_source",
+    "name": "白色平面无影光源",
+    "description": "白色平面无影光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/白色条形光源仰视图.png",
+    "device_type": "light_source",
+    "name": "白色条形光源仰视图",
+    "description": "白色条形光源仰视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/白色条形光源正视图.png",
+    "device_type": "light_source",
+    "name": "白色条形光源正视图",
+    "description": "白色条形光源正视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/白色条形光源测视图.png",
+    "device_type": "light_source",
+    "name": "白色条形光源测视图",
+    "description": "白色条形光源测视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/白色环形光源0°.png",
+    "device_type": "light_source",
+    "name": "白色环形光源0°",
+    "description": "白色环形光源0°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/白色环形光源45°.png",
+    "device_type": "light_source",
+    "name": "白色环形光源45°",
+    "description": "白色环形光源45°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/白色环形光源90°.png",
+    "device_type": "light_source",
+    "name": "白色环形光源90°",
+    "description": "白色环形光源90°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/白色环形无影光源.png",
+    "device_type": "light_source",
+    "name": "白色环形无影光源",
+    "description": "白色环形无影光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/相机加fa镜头.png",
+    "device_type": "camera",
+    "name": "相机加fa镜头",
+    "description": "相机加fa镜头",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/相机加远心镜头.png",
+    "device_type": "camera",
+    "name": "相机加远心镜头",
+    "description": "相机加远心镜头",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/红色平面无影光源.png",
+    "device_type": "light_source",
+    "name": "红色平面无影光源",
+    "description": "红色平面无影光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/红色条形光源仰视图.png",
+    "device_type": "light_source",
+    "name": "红色条形光源仰视图",
+    "description": "红色条形光源仰视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/红色条形光源侧视图.png",
+    "device_type": "light_source",
+    "name": "红色条形光源侧视图",
+    "description": "红色条形光源侧视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/红色条形光源正视图.png",
+    "device_type": "light_source",
+    "name": "红色条形光源正视图",
+    "description": "红色条形光源正视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/红色环形光源0°.png",
+    "device_type": "light_source",
+    "name": "红色环形光源0°",
+    "description": "红色环形光源0°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/红色环形光源45°.png",
+    "device_type": "light_source",
+    "name": "红色环形光源45°",
+    "description": "红色环形光源45°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/红色环形光源90°.png",
+    "device_type": "light_source",
+    "name": "红色环形光源90°",
+    "description": "红色环形光源90°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/红色环形无影光源.png",
+    "device_type": "light_source",
+    "name": "红色环形无影光源",
+    "description": "红色环形无影光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/线光.png",
+    "device_type": "light_source",
+    "name": "线光",
+    "description": "线光",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/线扫相机.png",
+    "device_type": "camera",
+    "name": "线扫相机",
+    "description": "线扫相机",
+    "params": {},
+    "tags": [
+      "工业相机"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/蓝色平面无影光源.png",
+    "device_type": "light_source",
+    "name": "蓝色平面无影光源",
+    "description": "蓝色平面无影光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/蓝色条形光源仰视图.png",
+    "device_type": "light_source",
+    "name": "蓝色条形光源仰视图",
+    "description": "蓝色条形光源仰视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/蓝色条形光源侧视图.png",
+    "device_type": "light_source",
+    "name": "蓝色条形光源侧视图",
+    "description": "蓝色条形光源侧视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/蓝色条形光源正视图.png",
+    "device_type": "light_source",
+    "name": "蓝色条形光源正视图",
+    "description": "蓝色条形光源正视图",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/蓝色环形光源0°.png",
+    "device_type": "light_source",
+    "name": "蓝色环形光源0°",
+    "description": "蓝色环形光源0°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/蓝色环形光源45°.png",
+    "device_type": "light_source",
+    "name": "蓝色环形光源45°",
+    "description": "蓝色环形光源45°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/蓝色环形光源90°.png",
+    "device_type": "light_source",
+    "name": "蓝色环形光源90°",
+    "description": "蓝色环形光源90°",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/蓝色环形无影光源.png",
+    "device_type": "light_source",
+    "name": "蓝色环形无影光源",
+    "description": "蓝色环形无影光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/隧道光.png",
+    "device_type": "light_source",
+    "name": "隧道光",
+    "description": "隧道光",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/面光源侧部开孔面光.png",
+    "device_type": "light_source",
+    "name": "面光源侧部开孔面光",
+    "description": "面光源侧部开孔面光",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/面光源侧部背光.png",
+    "device_type": "light_source",
+    "name": "面光源侧部背光",
+    "description": "面光源侧部背光",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/面光源底部开孔面光.png",
+    "device_type": "light_source",
+    "name": "面光源底部开孔面光",
+    "description": "面光源底部开孔面光",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/面光源底部背光.png",
+    "device_type": "light_source",
+    "name": "面光源底部背光",
+    "description": "面光源底部背光",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  },
+  {
+    "rel_path": "光源+相机/高亮点光源.png",
+    "device_type": "light_source",
+    "name": "高亮点光源",
+    "description": "高亮点光源",
+    "params": {},
+    "tags": [
+      "光源"
+    ]
+  }
+]

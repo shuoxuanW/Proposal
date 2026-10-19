@@ -1,0 +1,151 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "右上区域，倾斜安装，镜头朝下",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "位于相机下方，光轴向下延伸",
+      "parent_group": null
+    },
+    {
+      "name": "光源",
+      "position": "中部偏下，弧形结构，位于被测物上方、镜头下方",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "底部中央，蓝色块状，水平放置",
+      "parent_group": null
+    },
+    {
+      "name": "规格参数表",
+      "position": "左侧，含五行列：相机、镜头、光源、视野、单像素精度",
+      "parent_group": null
+    },
+    {
+      "name": "备注",
+      "position": "左下角，两行文字说明",
+      "parent_group": null
+    },
+    {
+      "name": "安装示意图",
+      "position": "右侧主图区域，标注于图下方",
+      "parent_group": null
+    },
+    {
+      "name": "YD Vision",
+      "position": "右上角标题",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源",
+      "target": "被测物",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源",
+      "target": "镜头",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "unit: mm；130±20；40±5；40*27mm；0.008mm/pixe；2000万网口面阵相机；50mm FA镜头（10mm接圈）；70mm圆顶光源；工位一检测产品斜面的孔位；产品被测面需要与光源平行",
+  "meta": {
+    "schema_version": 1,
+    "project": "20260515诠讯加工件螺纹有无视觉检测方案书(1)",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "20260515",
+      "诠讯加工件螺纹有无视觉检测方案书",
+      "slide5",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "unit",
+      "mm",
+      "130",
+      "20",
+      "40",
+      "27mm",
+      "0.008mm/pixe",
+      "2000",
+      "万网口面阵相机",
+      "50mm",
+      "FA",
+      "镜头",
+      "10mm",
+      "接圈",
+      "70mm",
+      "圆顶光源",
+      "工位一检测产品斜面的孔位",
+      "产品被测面需要与光源平行",
+      "相机",
+      "右上区域",
+      "倾斜安装",
+      "镜头朝下",
+      "位于相机下方",
+      "光轴向下延伸",
+      "光源",
+      "中部偏下",
+      "弧形结构",
+      "位于被测物上方",
+      "镜头下方",
+      "被测物",
+      "底部中央",
+      "蓝色块状",
+      "水平放置",
+      "规格参数表",
+      "左侧",
+      "含五行列",
+      "视野",
+      "单像素精度",
+      "备注",
+      "左下角",
+      "两行文字说明",
+      "安装示意图",
+      "右侧主图区域",
+      "标注于图下方",
+      "YD",
+      "Vision",
+      "右上角标题"
+    ],
+    "source_file": "20260515诠讯加工件螺纹有无视觉检测方案书(1)_slide5.png",
+    "reextracted_at": "2026-10-19T09:18:42",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "70mm圆顶光源",
+      "type": "圆顶",
+      "angle": "",
+      "distance_to_object": "40±5mm",
+      "adjustable": false,
+      "position": "斜置于被测物上方前方"
+    }
+  ]
+}

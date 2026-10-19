@@ -1,0 +1,58 @@
+{
+  "drawing_type": "机器视觉系统布局示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "图像上方垂直安装，光轴向下",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "位于被测物左下方，倾斜安装，光轴指向被测物短边方向",
+      "parent_group": null
+    },
+    {
+      "name": "光源2",
+      "position": "位于被测物右下方，倾斜安装，光轴指向被测物长边方向",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "位于相机正下方、两光源之间水平放置",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "green",
+      "label": "480±30mm"
+    },
+    {
+      "source": "光源1",
+      "target": "被测物",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "15~45° 可调"
+    },
+    {
+      "source": "光源1",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "green",
+      "label": "50±10mm"
+    },
+    {
+      "source": "被测物",
+      "target": "光源2",
+      "line_style": "dashed",
+      "color": "green",
+      "label": "90±10mm"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "备注：使用条光倾斜照射，分次照射，水平方向条光拍摄一次，垂直方向条光拍摄一次"
+}

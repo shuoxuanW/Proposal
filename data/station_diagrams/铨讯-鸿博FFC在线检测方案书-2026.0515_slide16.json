@@ -1,0 +1,109 @@
+{
+  "drawing_type": "架设示意图-工位二",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "顶部垂直安装，位于光源1上方",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "位于相机下方、产品上方，呈矩形框带斜线结构",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "位于光源1与光源2之间，橙色矩形块",
+      "parent_group": null
+    },
+    {
+      "name": "光源2",
+      "position": "底部水平安装，位于产品下方，含红色发光条阵列",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "光源1",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "117±10"
+    },
+    {
+      "source": "光源1",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "20±5"
+    },
+    {
+      "source": "产品",
+      "target": "光源2",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "10±2"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "unit: mm；备注：产品传送过程中，为防止产品左右滑动脱离相机视野，机构要有限位功能。",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 鸿博FFC在线检测方案书 2026.0515",
+    "drawing_type": "架设示意图-工位二",
+    "keywords": [
+      "铨讯",
+      "鸿博",
+      "FFC",
+      "在线检测方案书",
+      "2026.0515_slide16",
+      "架设示意图",
+      "工位二",
+      "2D",
+      "侧视",
+      "unit",
+      "mm",
+      "备注",
+      "产品传送过程中",
+      "为防止产品左右滑动脱离相机视野",
+      "机构要有限位功能",
+      "相机",
+      "顶部垂直安装",
+      "位于光源",
+      "上方",
+      "光源",
+      "位于相机下方",
+      "产品上方",
+      "呈矩形框带斜线结构",
+      "产品",
+      "与光源",
+      "之间",
+      "橙色矩形块",
+      "底部水平安装",
+      "位于产品下方",
+      "含红色发光条阵列"
+    ],
+    "source_file": "铨讯-鸿博FFC在线检测方案书-2026.0515_slide16.png",
+    "reextracted_at": "2026-10-19T09:25:18",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "同轴",
+      "angle": "",
+      "distance_to_object": "20±5mm",
+      "adjustable": false,
+      "position": "产品上方，光轴垂直向下"
+    },
+    {
+      "name": "光源2",
+      "type": "面光",
+      "angle": "",
+      "distance_to_object": "10±2mm",
+      "adjustable": false,
+      "position": "产品下方，光轴垂直向上"
+    }
+  ]
+}

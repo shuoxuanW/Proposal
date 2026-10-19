@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+output/
+.model_cache/
+data/vector.db*
+.git
+.gitignore
+.env

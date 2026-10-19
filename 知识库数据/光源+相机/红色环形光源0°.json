@@ -1,0 +1,13 @@
+{
+  "device_type": "light_source",
+  "name": "红色环形光源0°",
+  "brand": "",
+  "description": "红色环形光源0°",
+  "params": {},
+  "tags": [
+    "light_source"
+  ],
+  "view": "",
+  "angle": "0°",
+  "color": "红"
+}

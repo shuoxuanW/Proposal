@@ -1,0 +1,434 @@
+[
+  {
+    "file": "camera/HK-1200_2.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-1200_2.png"
+  },
+  {
+    "file": "camera/HK-1200_4.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-1200_4.png"
+  },
+  {
+    "file": "camera/HK-160_2.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-160_2.png"
+  },
+  {
+    "file": "camera/HK-2500_2.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-2500_2.png"
+  },
+  {
+    "file": "camera/HK-2500_4.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-2500_4.png"
+  },
+  {
+    "file": "camera/HK-500_2.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-500_2.png"
+  },
+  {
+    "file": "camera/HK-500_4.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-500_4.png"
+  },
+  {
+    "file": "camera/HK-500_6.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-500_6.png"
+  },
+  {
+    "file": "camera/HK-_2.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK-_2.png"
+  },
+  {
+    "file": "camera/HK_2.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK_2.png"
+  },
+  {
+    "file": "camera/HK_4.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\HK_4.png"
+  },
+  {
+    "file": "camera/OPT.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\OPT.png"
+  },
+  {
+    "file": "light_source/同轴光源白色.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\同轴光源白色.png"
+  },
+  {
+    "file": "light_source/同轴光源红色.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\同轴光源红色.png"
+  },
+  {
+    "file": "light_source/同轴光源蓝色.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\同轴光源蓝色.png"
+  },
+  {
+    "file": "light_source/同轴平行光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\同轴平行光源.png"
+  },
+  {
+    "file": "light_source/同轴线光.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\同轴线光.png"
+  },
+  {
+    "file": "light_source/圆顶光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\圆顶光源.png"
+  },
+  {
+    "file": "light_source/平面同轴光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\平面同轴光源.png"
+  },
+  {
+    "file": "light_source/点光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\点光源.png"
+  },
+  {
+    "file": "light_source/白色平面无影光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\白色平面无影光源.png"
+  },
+  {
+    "file": "light_source/白色条形光源仰视图.png",
+    "device_type": "light_source",
+    "view": "仰视图",
+    "angle": "",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\白色条形光源仰视图.png"
+  },
+  {
+    "file": "light_source/白色条形光源正视图.png",
+    "device_type": "light_source",
+    "view": "正视图",
+    "angle": "",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\白色条形光源正视图.png"
+  },
+  {
+    "file": "light_source/白色条形光源测视图.png",
+    "device_type": "light_source",
+    "view": "侧视图",
+    "angle": "",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\白色条形光源测视图.png"
+  },
+  {
+    "file": "light_source/白色环形光源0°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "0°",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\白色环形光源0°.png"
+  },
+  {
+    "file": "light_source/白色环形光源45°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "45°",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\白色环形光源45°.png"
+  },
+  {
+    "file": "light_source/白色环形光源90°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "90°",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\白色环形光源90°.png"
+  },
+  {
+    "file": "light_source/白色环形无影光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "白",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\白色环形无影光源.png"
+  },
+  {
+    "file": "camera/相机加fa镜头.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\相机加fa镜头.png"
+  },
+  {
+    "file": "camera/相机加远心镜头.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\相机加远心镜头.png"
+  },
+  {
+    "file": "light_source/红色平面无影光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\红色平面无影光源.png"
+  },
+  {
+    "file": "light_source/红色条形光源仰视图.png",
+    "device_type": "light_source",
+    "view": "仰视图",
+    "angle": "",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\红色条形光源仰视图.png"
+  },
+  {
+    "file": "light_source/红色条形光源侧视图.png",
+    "device_type": "light_source",
+    "view": "侧视图",
+    "angle": "",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\红色条形光源侧视图.png"
+  },
+  {
+    "file": "light_source/红色条形光源正视图.png",
+    "device_type": "light_source",
+    "view": "正视图",
+    "angle": "",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\红色条形光源正视图.png"
+  },
+  {
+    "file": "light_source/红色环形光源0°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "0°",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\红色环形光源0°.png"
+  },
+  {
+    "file": "light_source/红色环形光源45°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "45°",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\红色环形光源45°.png"
+  },
+  {
+    "file": "light_source/红色环形光源90°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "90°",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\红色环形光源90°.png"
+  },
+  {
+    "file": "light_source/红色环形无影光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "红",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\红色环形无影光源.png"
+  },
+  {
+    "file": "light_source/线光.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\线光.png"
+  },
+  {
+    "file": "camera/线扫相机.png",
+    "device_type": "camera",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\线扫相机.png"
+  },
+  {
+    "file": "light_source/蓝色平面无影光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\蓝色平面无影光源.png"
+  },
+  {
+    "file": "light_source/蓝色条形光源仰视图.png",
+    "device_type": "light_source",
+    "view": "仰视图",
+    "angle": "",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\蓝色条形光源仰视图.png"
+  },
+  {
+    "file": "light_source/蓝色条形光源侧视图.png",
+    "device_type": "light_source",
+    "view": "侧视图",
+    "angle": "",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\蓝色条形光源侧视图.png"
+  },
+  {
+    "file": "light_source/蓝色条形光源正视图.png",
+    "device_type": "light_source",
+    "view": "正视图",
+    "angle": "",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\蓝色条形光源正视图.png"
+  },
+  {
+    "file": "light_source/蓝色环形光源0°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "0°",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\蓝色环形光源0°.png"
+  },
+  {
+    "file": "light_source/蓝色环形光源45°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "45°",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\蓝色环形光源45°.png"
+  },
+  {
+    "file": "light_source/蓝色环形光源90°.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "90°",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\蓝色环形光源90°.png"
+  },
+  {
+    "file": "light_source/蓝色环形无影光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "蓝",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\蓝色环形无影光源.png"
+  },
+  {
+    "file": "light_source/隧道光.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\隧道光.png"
+  },
+  {
+    "file": "light_source/面光源侧部开孔面光.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\面光源侧部开孔面光.png"
+  },
+  {
+    "file": "light_source/面光源侧部背光.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\面光源侧部背光.png"
+  },
+  {
+    "file": "light_source/面光源底部开孔面光.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\面光源底部开孔面光.png"
+  },
+  {
+    "file": "light_source/面光源底部背光.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\面光源底部背光.png"
+  },
+  {
+    "file": "light_source/高亮点光源.png",
+    "device_type": "light_source",
+    "view": "",
+    "angle": "",
+    "color": "",
+    "source": "D:\\20261012\\知识库数据\\光源+相机\\高亮点光源.png"
+  }
+]

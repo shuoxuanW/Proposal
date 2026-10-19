@@ -1,0 +1,105 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机镜头",
+      "position": "图右上部，垂直安装于虚线光轴上方",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "图中部偏右，倾斜向下指向被测物",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "图右下部，水平放置于光轴下方",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "光源1",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": "65±5°"
+    },
+    {
+      "source": "相机镜头",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "相机镜头",
+      "target": "光源1",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "单位：mm；光源示意图正视图；Schematic diagram of setup (Front View)；配置表：相机-4K黑白线扫相机；镜头-YD-LS016F60-D66；调焦环-YD-MT08；转接环-YD-AT4224；光源-YD-2LPG300-W-DI；视野-180mm；单像素精度-0.043mm/pixel；注：此相机检测外壁部分",
+  "meta": {
+    "schema_version": 1,
+    "project": "电池壳体检测",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "电池壳体检测",
+      "slide5",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "单位",
+      "mm",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "配置表",
+      "相机",
+      "4K",
+      "黑白线扫相机",
+      "镜头",
+      "YD-LS016F60-D66",
+      "调焦环",
+      "YD-MT08",
+      "转接环",
+      "YD-AT4224",
+      "光源",
+      "YD-2LPG300-W-DI",
+      "视野",
+      "180mm",
+      "单像素精度",
+      "0.043mm/pixel",
+      "此相机检测外壁部分",
+      "相机镜头",
+      "图右上部",
+      "垂直安装于虚线光轴上方",
+      "图中部偏右",
+      "倾斜向下指向被测物",
+      "被测物",
+      "图右下部",
+      "水平放置于光轴下方"
+    ],
+    "source_file": "电池壳体检测_slide5.png",
+    "reextracted_at": "2026-10-19T09:21:53",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "面光",
+      "angle": "65±5°",
+      "distance_to_object": "70±10mm",
+      "adjustable": false,
+      "position": "斜向照射被测物"
+    }
+  ]
+}

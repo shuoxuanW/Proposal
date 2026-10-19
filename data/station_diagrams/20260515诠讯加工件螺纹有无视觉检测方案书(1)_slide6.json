@@ -1,0 +1,118 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "最上方，垂直中心线上",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "紧接相机下方，与相机同轴安装",
+      "parent_group": null
+    },
+    {
+      "name": "光源",
+      "position": "位于镜头下方、被测物上方，呈环形结构",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "最下方，蓝色梯形块，位于光轴末端",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "光源",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "打光示意图-工位3；YD Vision For Better Service；unit: mm；安装示意图；规格表：相机-2000万网口面阵相机；镜头-35mm FA镜头；光源-90°白色环光高亮；视野-70*47mm；单像素精度-0.014mm/pixel；尺寸标注：200±10（相机到被测物总高），160±10（光源到被测物距离）",
+  "meta": {
+    "schema_version": 1,
+    "project": "20260515诠讯加工件螺纹有无视觉检测方案书(1)",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "20260515",
+      "诠讯加工件螺纹有无视觉检测方案书",
+      "slide6",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "工位",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "unit",
+      "mm",
+      "安装示意图",
+      "规格表",
+      "相机",
+      "2000",
+      "万网口面阵相机",
+      "镜头",
+      "35mm",
+      "FA",
+      "光源",
+      "90",
+      "白色环光高亮",
+      "视野",
+      "70",
+      "47mm",
+      "单像素精度",
+      "0.014mm/pixel",
+      "尺寸标注",
+      "200",
+      "10",
+      "相机到被测物总高",
+      "160",
+      "光源到被测物距离",
+      "最上方",
+      "垂直中心线上",
+      "紧接相机下方",
+      "与相机同轴安装",
+      "位于镜头下方",
+      "被测物上方",
+      "呈环形结构",
+      "被测物",
+      "最下方",
+      "蓝色梯形块",
+      "位于光轴末端"
+    ],
+    "source_file": "20260515诠讯加工件螺纹有无视觉检测方案书(1)_slide6.png",
+    "reextracted_at": "2026-10-19T09:18:53",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "90°白色环光高亮",
+      "type": "环形",
+      "angle": "90°",
+      "distance_to_object": "160±10mm",
+      "adjustable": false,
+      "position": "环绕镜头下方，位于被测物上方"
+    }
+  ]
+}

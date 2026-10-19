@@ -1,0 +1,119 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "最上方垂直安装",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "位于产品上方、相机下方，水平放置",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "位于光源1与光源2之间，居中水平放置",
+      "parent_group": null
+    },
+    {
+      "name": "光源2",
+      "position": "最下方水平放置，含内部反射结构与绿色光路示意",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源1",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源2",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "YD Vision For Better Service；光源自示意图正视图；Schematic diagram of setup (Front View)；左侧表格：规格-参数列，含相机/镜头/光源1/光源2/视野/像素精度/预计精度及其对应值",
+  "meta": {
+    "schema_version": 1,
+    "project": "料带尺寸检测表面（视觉方案书） 2026.09.07",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "料带尺寸检测表面",
+      "视觉方案书",
+      "2026.09.07",
+      "slide9",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "光源自示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "左侧表格",
+      "规格",
+      "参数列",
+      "含相机",
+      "镜头",
+      "光源",
+      "视野",
+      "像素精度",
+      "预计精度及其对应值",
+      "相机",
+      "最上方垂直安装",
+      "位于产品上方",
+      "相机下方",
+      "水平放置",
+      "产品",
+      "位于光源",
+      "与光源",
+      "之间",
+      "居中水平放置",
+      "最下方水平放置",
+      "含内部反射结构与绿色光路示意"
+    ],
+    "source_file": "料带尺寸检测表面（视觉方案书）-2026.09.07 -_slide9.png",
+    "reextracted_at": "2026-10-19T09:21:29",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "",
+      "angle": "",
+      "distance_to_object": "10±2",
+      "adjustable": false,
+      "position": "产品上方"
+    },
+    {
+      "name": "光源2",
+      "type": "",
+      "angle": "",
+      "distance_to_object": "20±10",
+      "adjustable": false,
+      "position": "产品下方"
+    }
+  ]
+}

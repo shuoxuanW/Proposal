@@ -1,0 +1,127 @@
+{
+  "drawing_type": "安装示意图-检测工位",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "图像右上部，垂直安装于支架顶端",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "图像下部中央，置于光学玻璃上方",
+      "parent_group": null
+    },
+    {
+      "name": "光学玻璃",
+      "position": "产品正上方，紧贴产品上表面",
+      "parent_group": null
+    },
+    {
+      "name": "背光源",
+      "position": "产品正下方，紧贴产品下表面",
+      "parent_group": null
+    },
+    {
+      "name": "光源示意图正视图",
+      "position": "产品与背光源之间区域，含红色虚线阵列",
+      "parent_group": "光路示意"
+    },
+    {
+      "name": "参数表",
+      "position": "图像左侧，含规格与参数两列",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "110"
+    },
+    {
+      "source": "光学玻璃",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "背光源",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源示意图正视图",
+      "target": "背光源",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "单位：mm；YD Vision For Better Service；Schematic diagram of setup (Front View)",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 陶瓷片尺寸检测方案 0514 RevB",
+    "drawing_type": "安装示意图-检测工位",
+    "keywords": [
+      "铨讯",
+      "陶瓷片尺寸检测方案",
+      "0514",
+      "RevB_slide5",
+      "安装示意图",
+      "检测工位",
+      "2D",
+      "侧视",
+      "单位",
+      "mm",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "相机",
+      "图像右上部",
+      "垂直安装于支架顶端",
+      "产品",
+      "图像下部中央",
+      "置于光学玻璃上方",
+      "光学玻璃",
+      "产品正上方",
+      "紧贴产品上表面",
+      "背光源",
+      "产品正下方",
+      "紧贴产品下表面",
+      "光源示意图正视图",
+      "产品与背光源之间区域",
+      "含红色虚线阵列",
+      "参数表",
+      "图像左侧",
+      "含规格与参数两列"
+    ],
+    "source_file": "铨讯-陶瓷片尺寸检测方案-0514 RevB_slide5.png",
+    "reextracted_at": "2026-10-19T09:24:38",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "背光源",
+      "type": "背光",
+      "angle": "",
+      "distance_to_object": "",
+      "adjustable": false,
+      "position": "位于产品正下方，通过光学玻璃照射产品"
+    }
+  ]
+}

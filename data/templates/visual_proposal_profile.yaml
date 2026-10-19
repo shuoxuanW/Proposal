@@ -1,0 +1,123 @@
+template: data/templates/视觉方案书格式.pptx
+
+theme:
+  primary: "#1A5CD6"
+  accent: "#E85D3D"
+  text: "#202020"
+  muted: "#999999"
+  font: "微软雅黑"
+
+base_slides:
+  cover:
+    index: 0
+    title_shape: "标题 3"
+    subtitle_shape: "副标题 4"
+    title_token: "XXXX"
+  version:
+    index: 2
+    table_shape: "表格 2"
+    date_row: 1
+    date_col: 3
+  requirement:
+    index: 3
+  detection:
+    index: 4
+    body_shape: "文本框 81"
+    remove_shapes:
+      - "组合 10"
+      - "矩形 14"
+      - "矩形 15"
+      - "文本框 16"
+      - "椭圆 17"
+      - "矩形 19"
+      - "椭圆 21"
+      - "椭圆 22"
+      - "椭圆 27"
+      - "椭圆 52"
+      - "椭圆 53"
+      - "椭圆 54"
+      - "矩形 55"
+      - "直接连接符 56"
+      - "直接连接符 61"
+      - "矩形 62"
+      - "矩形 63"
+      - "矩形 64"
+      - "矩形 65"
+      - "矩形 66"
+      - "矩形 67"
+      - "矩形 68"
+      - "矩形 69"
+      - "矩形 70"
+      - "矩形 71"
+      - "矩形 72"
+      - "矩形 73"
+      - "矩形 74"
+      - "矩形 75"
+      - "矩形 76"
+      - "矩形 77"
+      - "矩形 78"
+      - "矩形 79"
+      - "文本框 80"
+  optical:
+    index: 5
+    table_shape: "表格 124"
+    remove_shapes:
+      - "组合 6147"
+      - "组合 2"
+      - "直接连接符 109"
+      - "直接箭头连接符 110"
+      - "直接连接符 113"
+      - "直接箭头连接符 116"
+      - "直接连接符 115"
+      - "矩形 114"
+      - "文本框 117"
+      - "文本框 111"
+      - "文本框 112"
+  camera2:
+    index: 6
+    body_shape: "文本框 3"
+    remove_shapes:
+      - "椭圆 18"
+      - "矩形 20"
+      - "椭圆 23"
+      - "椭圆 24"
+      - "椭圆 25"
+      - "椭圆 28"
+      - "椭圆 29"
+      - "椭圆 30"
+      - "矩形 26"
+      - "直接连接符 31"
+      - "直接连接符 32"
+      - "矩形 33"
+      - "文本框 51"
+      - "椭圆 12"
+      - "椭圆 13"
+  thanks:
+    index: 7
+  selection:
+    insert_after: 4
+    layout_index: 0
+
+appendix_style:
+  layout_index: 0
+  primary: "#1A5CD6"
+  text: "#202020"
+  muted: "#999999"
+  font: "微软雅黑"
+  title_size: 32
+  body_size: 15
+  margin_left: 0.5
+  margin_top: 1.3
+  content_width: 12.2
+  content_height: 5.5
+  footer: "YD Vision  |  For Better Service"
+
+appendix_roles:
+  - id: ch9
+    title: "检测效果与缺陷样张"
+  - id: ch10
+    title: "验证数据与验收指标"
+  - id: ch11
+    title: "风险与注意事项"
+  - id: ch12
+    title: "设备参数汇总"

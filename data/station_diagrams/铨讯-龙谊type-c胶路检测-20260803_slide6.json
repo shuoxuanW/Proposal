@@ -1,0 +1,135 @@
+{
+  "drawing_type": "打光示意图-胶路检测",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "图像右上方，垂直安装于镜头上方",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "位于相机正下方，与相机同轴连接",
+      "parent_group": null
+    },
+    {
+      "name": "UV环光",
+      "position": "环绕在待测物料上方，呈环形结构，位于镜头下方、物料上方",
+      "parent_group": null
+    },
+    {
+      "name": "待测物料",
+      "position": "图像底部蓝色矩形块，位于UV环光正下方",
+      "parent_group": null
+    },
+    {
+      "name": "表格",
+      "position": "图像左侧，含规格与参数两列五行数据",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "UV环光中心",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "UV环光中心",
+      "target": "待测物料中心",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "UV环光",
+      "target": "待测物料",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "40"
+    },
+    {
+      "source": "镜头",
+      "target": "待测物料",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "120±10"
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "YD Vision For Better Service；单位：mm；单像素精度 0.012mm/pixel；视野 29*24mm；光源自标注为UV环光；相机为500万网口彩色相机；镜头为35mmFA镜头",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 龙谊type c胶路检测 20260803",
+    "drawing_type": "打光示意图-胶路检测",
+    "keywords": [
+      "铨讯",
+      "龙谊",
+      "type-c",
+      "胶路检测",
+      "20260803_slide6",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "单位",
+      "mm",
+      "单像素精度",
+      "0.012mm/pixel",
+      "视野",
+      "29",
+      "24mm",
+      "光源自标注为",
+      "UV",
+      "环光",
+      "相机为",
+      "500",
+      "万网口彩色相机",
+      "镜头为",
+      "35mmFA",
+      "镜头",
+      "相机",
+      "图像右上方",
+      "垂直安装于镜头上方",
+      "位于相机正下方",
+      "与相机同轴连接",
+      "环绕在待测物料上方",
+      "呈环形结构",
+      "位于镜头下方",
+      "物料上方",
+      "待测物料",
+      "图像底部蓝色矩形块",
+      "位于",
+      "环光正下方",
+      "表格",
+      "图像左侧",
+      "含规格与参数两列五行数据"
+    ],
+    "source_file": "铨讯-龙谊type-c胶路检测-20260803_slide6.png",
+    "reextracted_at": "2026-10-19T09:25:51",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "UV环光",
+      "type": "环形",
+      "angle": "",
+      "distance_to_object": "40mm",
+      "adjustable": false,
+      "position": "位于镜头下方、被测物上方，环绕光轴"
+    }
+  ]
+}

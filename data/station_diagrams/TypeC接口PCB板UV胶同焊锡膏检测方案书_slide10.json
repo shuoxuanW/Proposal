@@ -1,0 +1,121 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "顶部中央，垂直安装于支架上",
+      "parent_group": null
+    },
+    {
+      "name": "光源2",
+      "position": "中上部，水平放置于产品上方，位于相机下方",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "中部，水平放置于产品上方，位于光源2下方",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "底部中央，水平放置",
+      "parent_group": null
+    },
+    {
+      "name": "规格参数表",
+      "position": "左侧，竖向排列表格",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "产品",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源2",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源1",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "YD Vision For Better Service；光源自示意图正视图；Schematic diagram of setup (Front View)",
+  "meta": {
+    "schema_version": 1,
+    "project": "TypeC接口PCB板UV胶同焊锡膏检测方案书",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "TypeC",
+      "接口",
+      "PCB",
+      "UV",
+      "胶同焊锡膏检测方案书",
+      "slide10",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "光源自示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "相机",
+      "顶部中央",
+      "垂直安装于支架上",
+      "光源",
+      "中上部",
+      "水平放置于产品上方",
+      "位于相机下方",
+      "中部",
+      "位于光源",
+      "下方",
+      "产品",
+      "底部中央",
+      "水平放置",
+      "规格参数表",
+      "左侧",
+      "竖向排列表格"
+    ],
+    "source_file": "TypeC接口PCB板UV胶同焊锡膏检测方案书_slide10.png",
+    "reextracted_at": "2026-10-19T09:20:05",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "环形",
+      "angle": "30°",
+      "distance_to_object": "50±10",
+      "adjustable": false,
+      "position": "位于产品上方，正视图中在产品与光源2之间"
+    },
+    {
+      "name": "光源2",
+      "type": "UV光",
+      "angle": "90°",
+      "distance_to_object": "200±10",
+      "adjustable": false,
+      "position": "位于光源1上方，正视图中在相机与光源1之间"
+    }
+  ]
+}

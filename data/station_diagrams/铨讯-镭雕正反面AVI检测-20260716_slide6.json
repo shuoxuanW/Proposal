@@ -1,0 +1,106 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "上方垂直安装，位于产品正上方",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "底部水平放置，位于光源下方、相机正下方",
+      "parent_group": null
+    },
+    {
+      "name": "光源",
+      "position": "位于产品与相机之间，呈矩形截面，内部有斜线表示光路，下方有向下箭头表示出光方向",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "光源",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "打光示意图-相机1；配置：相机 2500万黑白相机；镜头 50FA 镜头；光源 同轴光源；视野 50mm*50mm；单像素精度 0.01mm；单位：mm；210±10；110±10；光源自示意图正视图；Schematic diagram of setup (Front View)；YD Vision For Better Service",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 镭雕正反面AVI检测 20260716",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "铨讯",
+      "镭雕正反面",
+      "AVI",
+      "检测",
+      "20260716_slide6",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "相机",
+      "配置",
+      "2500",
+      "万黑白相机",
+      "镜头",
+      "50FA",
+      "光源",
+      "同轴光源",
+      "视野",
+      "50mm",
+      "单像素精度",
+      "0.01mm",
+      "单位",
+      "mm",
+      "210",
+      "10",
+      "110",
+      "光源自示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "上方垂直安装",
+      "位于产品正上方",
+      "产品",
+      "底部水平放置",
+      "位于光源下方",
+      "相机正下方",
+      "位于产品与相机之间",
+      "呈矩形截面",
+      "内部有斜线表示光路",
+      "下方有向下箭头表示出光方向"
+    ],
+    "source_file": "铨讯-镭雕正反面AVI检测-20260716_slide6.png",
+    "reextracted_at": "2026-10-19T09:24:01",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "同轴光源",
+      "type": "同轴",
+      "angle": "",
+      "distance_to_object": "110±10mm",
+      "adjustable": false,
+      "position": "位于相机与产品之间，光路沿光轴垂直向下"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "上方左右对称安装，位于光源上方",
+      "parent_group": null
+    },
+    {
+      "name": "光源",
+      "position": "中部水平长条形，位于相机下方、物料输送路径上方",
+      "parent_group": null
+    },
+    {
+      "name": "物料输送平台",
+      "position": "底部蓝色矩形块，位于光源正下方",
+      "parent_group": null
+    },
+    {
+      "name": "光轴",
+      "position": "两条垂直虚线（红色虚线），分别通过左右相机中心并贯穿光源与平台",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "光源",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "光源",
+      "target": "物料输送平台",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "单位：mm；光源示意图正视图；Schematic diagram of setup (Front View)；注：1.相机安装位置需要左右可调节。2.相机高度需要有电动升降机构。",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 耀登LDS天线缺料检测2026.10.9(1)",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "铨讯",
+      "耀登",
+      "LDS",
+      "天线缺料检测",
+      "2026.10.9",
+      "slide6",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "单位",
+      "mm",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "相机安装位置需要左右可调节",
+      "相机高度需要有电动升降机构",
+      "相机",
+      "上方左右对称安装",
+      "位于光源上方",
+      "光源",
+      "中部水平长条形",
+      "位于相机下方",
+      "物料输送路径上方",
+      "物料输送平台",
+      "底部蓝色矩形块",
+      "位于光源正下方",
+      "光轴",
+      "两条垂直虚线",
+      "红色虚线",
+      "分别通过左右相机中心并贯穿光源与平台"
+    ],
+    "source_file": "铨讯-耀登LDS天线缺料检测2026.10.9(1)_slide6.png",
+    "reextracted_at": "2026-10-19T09:23:03",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "开孔面光",
+      "type": "面光",
+      "angle": "",
+      "distance_to_object": "455±5mm",
+      "adjustable": false,
+      "position": "水平条形，位于被测物上方，两相机之间"
+    }
+  ]
+}

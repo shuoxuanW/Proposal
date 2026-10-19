@@ -1,0 +1,112 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D俯视",
+  "component_list": [
+    {
+      "name": "蓝色区域",
+      "position": "外框矩形，宽600高300",
+      "parent_group": null
+    },
+    {
+      "name": "橙色区域",
+      "position": "位于蓝色区域中央偏下，宽300高150",
+      "parent_group": null
+    },
+    {
+      "name": "灰色方块*2",
+      "position": "并列置于橙色区域内，左右对称分布于中心虚线两侧",
+      "parent_group": "橙色区域"
+    },
+    {
+      "name": "相机*2",
+      "position": "位于蓝色区域左侧，水平指向橙色区域中心",
+      "parent_group": null
+    },
+    {
+      "name": "中孔背光",
+      "position": "位于橙色区域下方，沿中心虚线方向向上照射",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机*2",
+      "target": "橙色区域",
+      "line_style": "solid",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "中孔背光",
+      "target": "橙色区域",
+      "line_style": "solid",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "中心位置",
+      "target": "灰色方块*2",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "打光示意图-俯视图；YD Vision For Better Service；光源示意图正视图 Schematic diagram of setup (Front View)",
+  "meta": {
+    "schema_version": 1,
+    "project": "20260508 旗升 混料检测方案 RevB",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "20260508",
+      "旗升",
+      "混料检测方案",
+      "RevB_slide6",
+      "打光示意图",
+      "2D",
+      "俯视",
+      "俯视图",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "蓝色区域",
+      "外框矩形",
+      "600",
+      "300",
+      "橙色区域",
+      "位于蓝色区域中央偏下",
+      "150",
+      "灰色方块",
+      "并列置于橙色区域内",
+      "左右对称分布于中心虚线两侧",
+      "相机",
+      "位于蓝色区域左侧",
+      "水平指向橙色区域中心",
+      "中孔背光",
+      "位于橙色区域下方",
+      "沿中心虚线方向向上照射"
+    ],
+    "source_file": "20260508-旗升-混料检测方案-RevB_slide6.png",
+    "reextracted_at": "2026-10-19T09:18:31",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "中孔背光",
+      "type": "背光",
+      "angle": "",
+      "distance_to_object": "",
+      "adjustable": false,
+      "position": "位于被测物（橙色区域）正下方，沿中心轴线"
+    }
+  ]
+}

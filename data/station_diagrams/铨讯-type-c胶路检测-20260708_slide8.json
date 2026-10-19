@@ -1,0 +1,127 @@
+{
+  "drawing_type": "打光示意图-焊锡检测(正反两面)",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "顶部垂直安装",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "位于相机下方，与相机同轴连接",
+      "parent_group": null
+    },
+    {
+      "name": "条形光源",
+      "position": "位于被测物体上方、镜头下方，呈半圆罩状结构",
+      "parent_group": null
+    },
+    {
+      "name": "被测物体",
+      "position": "底部蓝色矩形块，位于条形光源正下方",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "被测物体",
+      "line_style": "dashed",
+      "color": "red",
+      "label": "6"
+    },
+    {
+      "source": "条形光源",
+      "target": "被测物体",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "规格参数表：相机-2000万网口彩色相机*2；镜头-35mm FA镜头；光源1-白色球积分；光源2-白色环光；视野-40X26mm；单像素精度-0.007mm/pixel；单位：mm；YD Vision For Better Service",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 type c胶路检测 20260708",
+    "drawing_type": "打光示意图-焊锡检测(正反两面)",
+    "keywords": [
+      "铨讯",
+      "type-c",
+      "胶路检测",
+      "20260708_slide8",
+      "打光示意图",
+      "焊锡检测",
+      "正反两面",
+      "2D",
+      "侧视",
+      "规格参数表",
+      "相机",
+      "2000",
+      "万网口彩色相机",
+      "镜头",
+      "35mm",
+      "FA",
+      "光源",
+      "白色球积分",
+      "白色环光",
+      "视野",
+      "40X26mm",
+      "单像素精度",
+      "0.007mm/pixel",
+      "单位",
+      "mm",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "顶部垂直安装",
+      "位于相机下方",
+      "与相机同轴连接",
+      "条形光源",
+      "位于被测物体上方",
+      "镜头下方",
+      "呈半圆罩状结构",
+      "被测物体",
+      "底部蓝色矩形块",
+      "位于条形光源正下方"
+    ],
+    "source_file": "铨讯-type-c胶路检测-20260708_slide8.png",
+    "reextracted_at": "2026-10-19T09:22:31",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "圆顶",
+      "angle": "",
+      "distance_to_object": "",
+      "adjustable": false,
+      "position": "图中未绘出实体，仅表格标注为白色球积分"
+    },
+    {
+      "name": "光源2",
+      "type": "环形",
+      "angle": "",
+      "distance_to_object": "",
+      "adjustable": false,
+      "position": "图中未绘出实体，仅表格标注为白色环光"
+    },
+    {
+      "name": "条形光源",
+      "type": "条形",
+      "angle": "",
+      "distance_to_object": "10±5mm",
+      "adjustable": false,
+      "position": "位于镜头与被测物之间，水平布置"
+    }
+  ]
+}

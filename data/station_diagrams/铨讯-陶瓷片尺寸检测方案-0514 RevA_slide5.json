@@ -1,0 +1,134 @@
+{
+  "drawing_type": "安装示意图-检测工位",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "图像右上部，垂直安装于支架顶端",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "图像下部中央，置于光学玻璃上方",
+      "parent_group": null
+    },
+    {
+      "name": "光学玻璃",
+      "position": "产品下方，水平放置",
+      "parent_group": null
+    },
+    {
+      "name": "背光源",
+      "position": "光学玻璃下方，水平长条形结构",
+      "parent_group": null
+    },
+    {
+      "name": "光源示意图正视图",
+      "position": "背光源下方，标注文字说明",
+      "parent_group": null
+    },
+    {
+      "name": "规格参数表",
+      "position": "图像左侧，含5行2列表格",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "产品",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "110"
+    },
+    {
+      "source": "产品",
+      "target": "光学玻璃",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光学玻璃",
+      "target": "背光源",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光学玻璃",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "背光源",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "单位：mm；YD Vision For Better Service；Schematic diagram of setup (Front View)",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 陶瓷片尺寸检测方案 0514 RevA",
+    "drawing_type": "安装示意图-检测工位",
+    "keywords": [
+      "铨讯",
+      "陶瓷片尺寸检测方案",
+      "0514",
+      "RevA_slide5",
+      "安装示意图",
+      "检测工位",
+      "2D",
+      "侧视",
+      "单位",
+      "mm",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "相机",
+      "图像右上部",
+      "垂直安装于支架顶端",
+      "产品",
+      "图像下部中央",
+      "置于光学玻璃上方",
+      "光学玻璃",
+      "产品下方",
+      "水平放置",
+      "背光源",
+      "光学玻璃下方",
+      "水平长条形结构",
+      "光源示意图正视图",
+      "背光源下方",
+      "标注文字说明",
+      "规格参数表",
+      "图像左侧",
+      "列表格"
+    ],
+    "source_file": "铨讯-陶瓷片尺寸检测方案-0514 RevA_slide5.png",
+    "reextracted_at": "2026-10-19T09:24:27",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "背光源",
+      "type": "背光",
+      "angle": "",
+      "distance_to_object": "",
+      "adjustable": false,
+      "position": "位于产品正下方，通过光学玻璃照射产品"
+    }
+  ]
+}

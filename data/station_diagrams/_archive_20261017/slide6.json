@@ -1,0 +1,46 @@
+{
+  "drawing_type": "机器视觉系统布局示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "图像上方垂直安装，镜头朝下",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "图像中下方，倾斜安装，光轴与水平面成15~45°可调角",
+      "parent_group": null
+    },
+    {
+      "name": "产品（物料）",
+      "position": "图像底部中央，蓝色矩形块",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "产品（物料）",
+      "line_style": "dashed",
+      "color": "green",
+      "label": "480±30mm"
+    },
+    {
+      "source": "光源1",
+      "target": "产品（物料）",
+      "line_style": "solid",
+      "color": "green",
+      "label": "25±20mm"
+    },
+    {
+      "source": "光源1",
+      "target": "产品（物料）",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "15~45° 可调"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "使用条光倾斜照射，对产品来料位置要求严格；产品边缘本身毛刺较多，抓边稳定性不高"
+}

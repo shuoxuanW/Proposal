@@ -1,0 +1,132 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "顶部中央，垂直安装于支架上",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "右上方，斜向照射产品",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "中部水平平台，位于相机正下方、两光源之间",
+      "parent_group": null
+    },
+    {
+      "name": "光源2",
+      "position": "右下方，斜向上照射产品",
+      "parent_group": null
+    },
+    {
+      "name": "光轴",
+      "position": "贯穿相机与产品的垂直中心线（图中未显式画出红线虚线，但结构隐含）",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源1",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "光源2",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "YD Vision For Better Service；光源自示意图正视图；Schematic diagram of setup (Front View)；规格表：相机-2500w相机；镜头-0.8倍远心镜头镜头；光源1-YD-CST-COS40-W-ZT；光源2-YD-CST-COPS40-W-ZT；视野-16*16mm；像素精度-0.003mm/pixel；预计精度-±0.01mm",
+  "meta": {
+    "schema_version": 1,
+    "project": "料带尺寸检测（视觉方案书） 2026.09.07",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "料带尺寸检测",
+      "视觉方案书",
+      "2026.09.07_slide8",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "光源自示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "规格表",
+      "相机",
+      "2500w",
+      "镜头",
+      "0.8",
+      "倍远心镜头镜头",
+      "光源",
+      "1-YD-CST-COS40-W-ZT",
+      "2-YD-CST-COPS40-W-ZT",
+      "视野",
+      "16",
+      "16mm",
+      "像素精度",
+      "0.003mm/pixel",
+      "预计精度",
+      "0.01mm",
+      "顶部中央",
+      "垂直安装于支架上",
+      "右上方",
+      "斜向照射产品",
+      "产品",
+      "中部水平平台",
+      "位于相机正下方",
+      "两光源之间",
+      "右下方",
+      "斜向上照射产品",
+      "光轴",
+      "贯穿相机与产品的垂直中心线",
+      "图中未显式画出红线虚线",
+      "但结构隐含"
+    ],
+    "source_file": "料带尺寸检测（视觉方案书）-2026.09.07_slide8.png",
+    "reextracted_at": "2026-10-19T09:21:41",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "",
+      "angle": "",
+      "distance_to_object": "110±5",
+      "adjustable": false,
+      "position": "产品上方斜侧"
+    },
+    {
+      "name": "光源2",
+      "type": "",
+      "angle": "",
+      "distance_to_object": "20±10",
+      "adjustable": false,
+      "position": "产品下方斜侧"
+    }
+  ]
+}

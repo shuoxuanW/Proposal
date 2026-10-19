@@ -1,0 +1,13 @@
+{
+  "device_type": "light_source",
+  "name": "隧道光",
+  "brand": "",
+  "description": "隧道光",
+  "params": {},
+  "tags": [
+    "light_source"
+  ],
+  "view": "",
+  "angle": "",
+  "color": ""
+}

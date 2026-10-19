@@ -1,0 +1,13 @@
+{
+  "device_type": "light_source",
+  "name": "同轴平行光源",
+  "brand": "",
+  "description": "同轴平行光源",
+  "params": {},
+  "tags": [
+    "light_source"
+  ],
+  "view": "",
+  "angle": "",
+  "color": ""
+}

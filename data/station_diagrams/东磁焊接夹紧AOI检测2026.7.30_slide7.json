@@ -1,0 +1,165 @@
+{
+  "drawing_type": "打光示意图-相机2",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "位于装置顶部，垂直安装于镜头上方",
+      "parent_group": null
+    },
+    {
+      "name": "16FA镜头",
+      "position": "位于相机正下方，连接相机与棱镜",
+      "parent_group": null
+    },
+    {
+      "name": "40mm棱镜",
+      "position": "位于镜头下方，呈倾斜反射结构，光路转折处",
+      "parent_group": null
+    },
+    {
+      "name": "环形光源",
+      "position": "环绕在棱镜与镜头组件外围，位于被测物上方",
+      "parent_group": null
+    },
+    {
+      "name": "被测物平台",
+      "position": "位于装置最底部，水平放置，为检测对象承载面",
+      "parent_group": null
+    },
+    {
+      "name": "光轴",
+      "position": "从相机经镜头、棱镜反射后垂直向下指向被测物中心",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "16FA镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "16FA镜头",
+      "target": "40mm棱镜",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "40mm棱镜",
+      "target": "被测物平台",
+      "line_style": "dashed",
+      "color": "red",
+      "label": "光轴"
+    },
+    {
+      "source": "环形光源",
+      "target": "40mm棱镜",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "10±10mm"
+    },
+    {
+      "source": "环形光源",
+      "target": "被测物平台",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "35±10mm"
+    },
+    {
+      "source": "相机顶部",
+      "target": "被测物平台",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "195±10mm"
+    },
+    {
+      "source": "相机顶部",
+      "target": "被测物平台",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "210±10mm"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "配置：相机-2000万卷帘网口彩色相机；镜头-16FA镜头；光源-环形光源；棱镜-40mm棱镜；视野-75mm*51mm；单像素精度-0.014mm/pixel；注：此相机检测部分为1.检测产品有无螺纹。2.检测产品有无螺母。3.检测螺母有无异物。单位：mm；YD Vision For Better Service；光源示意图正视图；Schematic diagram of setup (Front View)",
+  "meta": {
+    "schema_version": 1,
+    "project": "东磁焊接夹紧AOI检测2026.7.30",
+    "drawing_type": "打光示意图-相机2",
+    "keywords": [
+      "东磁焊接夹紧",
+      "AOI",
+      "检测",
+      "2026.7.30_slide7",
+      "打光示意图",
+      "相机",
+      "2D",
+      "侧视",
+      "配置",
+      "2000",
+      "万卷帘网口彩色相机",
+      "镜头",
+      "16FA",
+      "光源",
+      "环形光源",
+      "棱镜",
+      "40mm",
+      "视野",
+      "75mm",
+      "51mm",
+      "单像素精度",
+      "0.014mm/pixel",
+      "此相机检测部分为",
+      "检测产品有无螺纹",
+      "检测产品有无螺母",
+      "检测螺母有无异物",
+      "单位",
+      "mm",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "位于装置顶部",
+      "垂直安装于镜头上方",
+      "位于相机正下方",
+      "连接相机与棱镜",
+      "位于镜头下方",
+      "呈倾斜反射结构",
+      "光路转折处",
+      "环绕在棱镜与镜头组件外围",
+      "位于被测物上方",
+      "被测物平台",
+      "位于装置最底部",
+      "水平放置",
+      "为检测对象承载面",
+      "光轴",
+      "从相机经镜头",
+      "棱镜反射后垂直向下指向被测物中心"
+    ],
+    "source_file": "东磁焊接夹紧AOI检测2026.7.30_slide7.png",
+    "reextracted_at": "2026-10-19T09:20:46",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "环形光源",
+      "type": "环形",
+      "angle": "",
+      "distance_to_object": "35±10mm",
+      "adjustable": false,
+      "position": "位于镜头下方、棱镜上方，环绕光轴"
+    }
+  ]
+}

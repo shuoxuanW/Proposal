@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pyc
+output/
+data/image_library/_index.json
+data/knowledge/_kb_store.json

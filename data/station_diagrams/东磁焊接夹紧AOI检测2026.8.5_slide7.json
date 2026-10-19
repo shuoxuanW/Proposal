@@ -1,0 +1,169 @@
+{
+  "drawing_type": "打光示意图-相机2",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "顶部垂直安装，位于镜头上方",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "连接在相机下方，紧接环形光源上方",
+      "parent_group": null
+    },
+    {
+      "name": "环形光源",
+      "position": "套在镜头外侧，位于棱镜上方",
+      "parent_group": null
+    },
+    {
+      "name": "棱镜",
+      "position": "位于环形光源下方，正对下方被测物",
+      "parent_group": null
+    },
+    {
+      "name": "被测物（产品）",
+      "position": "底部水平放置的蓝色矩形块，位于棱镜正下方",
+      "parent_group": null
+    },
+    {
+      "name": "配置表",
+      "position": "左侧表格区域",
+      "parent_group": null
+    },
+    {
+      "name": "光源示意图正视图",
+      "position": "右侧主图区域，标注为Front View",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "环形光源",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "环形光源",
+      "target": "棱镜",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "棱镜",
+      "target": "被测物（产品）",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "光路示意"
+    },
+    {
+      "source": "被测物（产品）",
+      "target": "棱镜",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "反射光路"
+    },
+    {
+      "source": "10±10mm",
+      "target": "棱镜与被测物之间横向距离",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "10±10mm"
+    },
+    {
+      "source": "35±10mm",
+      "target": "棱镜下表面到被测物上表面",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "35±10mm"
+    },
+    {
+      "source": "195±10mm",
+      "target": "相机顶部到被测物上表面",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "195±10mm"
+    },
+    {
+      "source": "210±10mm",
+      "target": "镜头顶部到被测物上表面",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "210±10mm"
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "YD Vision For Better Service；单位：mm；注：此相机检测部分为1. 检测产品有无螺纹。2. 检测产品有无螺母。3. 检测螺母有无异物。",
+  "meta": {
+    "schema_version": 1,
+    "project": "东磁焊接夹紧AOI检测2026.8.5",
+    "drawing_type": "打光示意图-相机2",
+    "keywords": [
+      "东磁焊接夹紧",
+      "AOI",
+      "检测",
+      "2026.8.5_slide7",
+      "打光示意图",
+      "相机",
+      "2D",
+      "侧视",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "单位",
+      "mm",
+      "此相机检测部分为",
+      "检测产品有无螺纹",
+      "检测产品有无螺母",
+      "检测螺母有无异物",
+      "顶部垂直安装",
+      "位于镜头上方",
+      "镜头",
+      "连接在相机下方",
+      "紧接环形光源上方",
+      "环形光源",
+      "套在镜头外侧",
+      "位于棱镜上方",
+      "棱镜",
+      "位于环形光源下方",
+      "正对下方被测物",
+      "被测物",
+      "产品",
+      "底部水平放置的蓝色矩形块",
+      "位于棱镜正下方",
+      "配置表",
+      "左侧表格区域",
+      "光源示意图正视图",
+      "右侧主图区域",
+      "标注为",
+      "Front",
+      "View"
+    ],
+    "source_file": "东磁焊接夹紧AOI检测2026.8.5_slide7.png",
+    "reextracted_at": "2026-10-19T09:21:17",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "环形光源",
+      "type": "环形",
+      "angle": "",
+      "distance_to_object": "35±10mm",
+      "adjustable": false,
+      "position": "位于棱镜与被测物之间，环绕光路"
+    }
+  ]
+}

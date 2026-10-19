@@ -1,0 +1,135 @@
+{
+  "drawing_type": "打光示意图-相机",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "顶部中央，垂直安装于上支架",
+      "parent_group": null
+    },
+    {
+      "name": "产品",
+      "position": "中部水平平台之上，位于上下光源之间",
+      "parent_group": null
+    },
+    {
+      "name": "8mm玻璃",
+      "position": "产品下方，水平放置于下支架之上",
+      "parent_group": null
+    },
+    {
+      "name": "相机",
+      "position": "底部中央，垂直安装于下支架",
+      "parent_group": null
+    },
+    {
+      "name": "环形光源",
+      "position": "上下各一个，分别位于产品上方与下方、相机与产品之间，呈环状剖面结构",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "产品",
+      "target": "8mm玻璃",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "8mm玻璃",
+      "target": "相机",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    },
+    {
+      "source": "环形光源",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "配置：相机-2000万彩色相机；镜头-35mm FA镜头；光源-环形光源；视野-67.5mm * 45mm；分辨率-0.012mm/pixel；注：需通过频闪的方式进行拍摄。单位：mm；YD Vision For Better Service；光源示意图正视图 Schematic diagram of setup (Front View)",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 丰景拓LDS天线筛选方案2026.8.26",
+    "drawing_type": "打光示意图-相机",
+    "keywords": [
+      "铨讯",
+      "丰景拓",
+      "LDS",
+      "天线筛选方案",
+      "2026.8.26_slide5",
+      "打光示意图",
+      "相机",
+      "2D",
+      "侧视",
+      "配置",
+      "2000",
+      "万彩色相机",
+      "镜头",
+      "35mm",
+      "FA",
+      "光源",
+      "环形光源",
+      "视野",
+      "67.5mm",
+      "45mm",
+      "分辨率",
+      "0.012mm/pixel",
+      "需通过频闪的方式进行拍摄",
+      "单位",
+      "mm",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "顶部中央",
+      "垂直安装于上支架",
+      "产品",
+      "中部水平平台之上",
+      "位于上下光源之间",
+      "8mm",
+      "玻璃",
+      "产品下方",
+      "水平放置于下支架之上",
+      "底部中央",
+      "垂直安装于下支架",
+      "上下各一个",
+      "分别位于产品上方与下方",
+      "相机与产品之间",
+      "呈环状剖面结构"
+    ],
+    "source_file": "铨讯-丰景拓LDS天线筛选方案2026.8.26_slide5.png",
+    "reextracted_at": "2026-10-19T09:22:43",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "环形光源",
+      "type": "环形",
+      "angle": "",
+      "distance_to_object": "110±5mm",
+      "adjustable": false,
+      "position": "产品上方和下方各一个，对称布置"
+    }
+  ]
+}

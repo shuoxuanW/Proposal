@@ -1,0 +1,124 @@
+{
+  "drawing_type": "打光示意图-相机1",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "图像右上部，垂直安装于支架上",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "图像中部偏右下方，倾斜安装，发光端朝向下方物料",
+      "parent_group": null
+    },
+    {
+      "name": "物料（蓝色矩形）",
+      "position": "图像底部中央，水平放置",
+      "parent_group": null
+    },
+    {
+      "name": "配置表",
+      "position": "图像左侧",
+      "parent_group": null
+    },
+    {
+      "name": "移动方向箭头",
+      "position": "图像左下角，指向右方",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "光源1",
+      "target": "物料",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "45°±15°"
+    },
+    {
+      "source": "相机",
+      "target": "物料",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "373±10mm"
+    },
+    {
+      "source": "光源1",
+      "target": "物料",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "30±10mm"
+    },
+    {
+      "source": "移动方向箭头",
+      "target": "相机",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "单位：mm；注：相机应在长边方向移动。YD Vision For Better Service；光源示意图正视图 Schematic diagram of setup (Front View)",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 龙朋 FPC打叉漏涂Mark点视觉检测方案 2026.8.23",
+    "drawing_type": "打光示意图-相机1",
+    "keywords": [
+      "铨讯",
+      "龙朋",
+      "FPC",
+      "打叉漏涂",
+      "Mark",
+      "点视觉检测方案",
+      "2026.8.23_slide5",
+      "打光示意图",
+      "相机",
+      "2D",
+      "侧视",
+      "单位",
+      "mm",
+      "相机应在长边方向移动",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "图像右上部",
+      "垂直安装于支架上",
+      "光源",
+      "图像中部偏右下方",
+      "倾斜安装",
+      "发光端朝向下方物料",
+      "物料",
+      "蓝色矩形",
+      "图像底部中央",
+      "水平放置",
+      "配置表",
+      "图像左侧",
+      "移动方向箭头",
+      "图像左下角",
+      "指向右方"
+    ],
+    "source_file": "铨讯-龙朋-FPC打叉漏涂Mark点视觉检测方案-2026.8.23_slide5.png",
+    "reextracted_at": "2026-10-19T09:25:41",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "线光",
+      "angle": "45°±15°",
+      "distance_to_object": "30±10mm",
+      "adjustable": false,
+      "position": "斜向照射被测物"
+    }
+  ]
+}

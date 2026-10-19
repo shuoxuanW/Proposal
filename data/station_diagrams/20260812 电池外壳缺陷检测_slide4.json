@@ -1,0 +1,136 @@
+{
+  "drawing_type": "安装示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机镜头",
+      "position": "上方垂直中心位置，位于光轴线上方",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "中部偏下，水平居中，位于被测物上方、相机镜头下方",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "最下方，水平居中，位于光轴线下方",
+      "parent_group": null
+    },
+    {
+      "name": "CST",
+      "position": "嵌入在相机镜头组件内部，蓝色矩形模块",
+      "parent_group": "相机镜头"
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机镜头",
+      "target": "光源1",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源1",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源1",
+      "target": "相机镜头",
+      "line_style": "dashed",
+      "color": "black",
+      "label": "242±10mm"
+    },
+    {
+      "source": "被测物",
+      "target": "光源1",
+      "line_style": "dashed",
+      "color": "black",
+      "label": "70±10mm"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "工位一 边缘划痕光学方案；参数设置：曝光时间：100us；增益：；gamma：；拍摄视野：60mm*40mm；像素精度：0.01mm/pixel；拍摄背景：；硬件名称 相关型号 数量；相机 CST-2CR200-5GCD 1；相机电源线 3M6003 1；相机数据线 CST-3M(LR) 1；采集卡 ；镜头 CST-YD5028-20M 1；延长管1 5mm 1；延长管2 ；光源 CST-HRM116W-4 1；光源控制器 CST-TPS24120C-8TD 1；延长线 AC16P9-L3 1；软件算法 CST-2.5D-面阵光度立体 1；东莞康视达自动化科技有限公司；www.cstmv.com",
+  "meta": {
+    "schema_version": 1,
+    "project": "20260812 电池外壳缺陷检测",
+    "drawing_type": "安装示意图",
+    "keywords": [
+      "20260812",
+      "电池外壳缺陷检测",
+      "slide4",
+      "安装示意图",
+      "2D",
+      "侧视",
+      "工位一",
+      "边缘划痕光学方案",
+      "参数设置",
+      "曝光时间",
+      "100us",
+      "增益",
+      "gamma",
+      "拍摄视野",
+      "60mm",
+      "40mm",
+      "像素精度",
+      "0.01mm/pixel",
+      "拍摄背景",
+      "硬件名称",
+      "相关型号",
+      "数量",
+      "相机",
+      "CST-2CR200-5GCD",
+      "相机电源线",
+      "3M6003",
+      "相机数据线",
+      "CST-3M",
+      "LR",
+      "采集卡",
+      "镜头",
+      "CST-YD5028-20M",
+      "延长管",
+      "5mm",
+      "光源",
+      "CST-HRM116W-4",
+      "光源控制器",
+      "CST-TPS24120C-8TD",
+      "延长线",
+      "AC16P9-L3",
+      "软件算法",
+      "CST-2.5D",
+      "面阵光度立体",
+      "东莞康视达自动化科技有限公司",
+      "www.cstmv.com",
+      "相机镜头",
+      "上方垂直中心位置",
+      "位于光轴线上方",
+      "中部偏下",
+      "水平居中",
+      "位于被测物上方",
+      "相机镜头下方",
+      "被测物",
+      "最下方",
+      "位于光轴线下方",
+      "CST",
+      "嵌入在相机镜头组件内部",
+      "蓝色矩形模块"
+    ],
+    "source_file": "20260812 电池外壳缺陷检测_slide4.png",
+    "reextracted_at": "2026-10-19T09:19:29",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "面光",
+      "angle": "",
+      "distance_to_object": "70±10mm",
+      "adjustable": false,
+      "position": "位于被测物正上方，与相机同轴"
+    }
+  ]
+}

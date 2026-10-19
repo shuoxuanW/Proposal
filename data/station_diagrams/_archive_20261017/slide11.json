@@ -1,0 +1,39 @@
+{
+  "drawing_type": "机器视觉环形光照明示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机镜头",
+      "position": "顶部中央，垂直安装于光源上方",
+      "parent_group": null
+    },
+    {
+      "name": "光源",
+      "position": "中部横向条状结构，含左右蓝色发光区域与中间白色区域",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "底部中央黑色矩形块，位于光源正下方",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "光源",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": "180mm"
+    },
+    {
+      "source": "相机镜头",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": "200mm"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "环形光\nCST Machine Vision"
+}

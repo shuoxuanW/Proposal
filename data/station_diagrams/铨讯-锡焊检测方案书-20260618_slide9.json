@@ -1,0 +1,105 @@
+{
+  "drawing_type": "打光示意图背面",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "图像右上部，垂直安装于镜头上方",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "相机正下方，与相机同轴连接",
+      "parent_group": null
+    },
+    {
+      "name": "环形光源",
+      "position": "图像下部，水平放置，位于球积分下方",
+      "parent_group": null
+    },
+    {
+      "name": "球积分",
+      "position": "环形光源上方，紧贴其上表面中心位置",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "球积分",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "球积分",
+      "target": "环形光源",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "规格：相机-500万网口彩色相机；镜头-25mmFA镜头；背面光源-环行光源；视野-53*44mm；单像素精度-0.021mm/pixel；注：1. 缺乏不良样品，反面光源方案尚未完全定稿！单位：mm",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 锡焊检测方案书 20260618",
+    "drawing_type": "打光示意图背面",
+    "keywords": [
+      "铨讯",
+      "锡焊检测方案书",
+      "20260618_slide9",
+      "打光示意图背面",
+      "2D",
+      "侧视",
+      "规格",
+      "相机",
+      "500",
+      "万网口彩色相机",
+      "镜头",
+      "25mmFA",
+      "背面光源",
+      "环行光源",
+      "视野",
+      "53",
+      "44mm",
+      "单像素精度",
+      "0.021mm/pixel",
+      "缺乏不良样品",
+      "反面光源方案尚未完全定稿",
+      "单位",
+      "mm",
+      "图像右上部",
+      "垂直安装于镜头上方",
+      "相机正下方",
+      "与相机同轴连接",
+      "环形光源",
+      "图像下部",
+      "水平放置",
+      "位于球积分下方",
+      "球积分",
+      "环形光源上方",
+      "紧贴其上表面中心位置"
+    ],
+    "source_file": "铨讯-锡焊检测方案书-20260618_slide9.png",
+    "reextracted_at": "2026-10-19T09:23:52",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "环形光源",
+      "type": "环形",
+      "angle": "",
+      "distance_to_object": "40mm",
+      "adjustable": false,
+      "position": "位于被测物正上方，环绕光轴"
+    }
+  ]
+}

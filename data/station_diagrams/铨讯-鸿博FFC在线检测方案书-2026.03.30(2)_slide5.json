@@ -1,0 +1,139 @@
+{
+  "drawing_type": "架设总示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机一",
+      "position": "图像上部，垂直安装于产品线上方",
+      "parent_group": "工位一"
+    },
+    {
+      "name": "相机二",
+      "position": "图像下部，垂直安装于产品线下方",
+      "parent_group": "工位一"
+    },
+    {
+      "name": "产品",
+      "position": "水平橙色条带，贯穿图像中部",
+      "parent_group": "工位一"
+    },
+    {
+      "name": "产品移动方向箭头",
+      "position": "位于产品上方，水平向右",
+      "parent_group": "工位一"
+    },
+    {
+      "name": "60°倾斜部件（上）",
+      "position": "位于相机一正下方、产品线上方，呈60°倾斜",
+      "parent_group": "工位一"
+    },
+    {
+      "name": "60°倾斜部件（下）",
+      "position": "位于相机二正上方、产品线下方，呈60°倾斜",
+      "parent_group": "工位一"
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机一",
+      "target": "60°倾斜部件（上）",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "120±10"
+    },
+    {
+      "source": "60°倾斜部件（上）",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "70±10"
+    },
+    {
+      "source": "相机二",
+      "target": "60°倾斜部件（下）",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "146±10"
+    },
+    {
+      "source": "60°倾斜部件（下）",
+      "target": "产品",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "70±10"
+    },
+    {
+      "source": "产品移动方向箭头",
+      "target": null,
+      "line_style": "solid",
+      "color": "blue",
+      "label": "产品移动方向"
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "架设总示意图-工位一；unit: mm；YD Vision For Better Service",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 鸿博FFC在线检测方案书 2026.03.30(2)",
+    "drawing_type": "架设总示意图-工位一",
+    "keywords": [
+      "铨讯",
+      "鸿博",
+      "FFC",
+      "在线检测方案书",
+      "2026.03.30",
+      "slide5",
+      "架设总示意图",
+      "2D",
+      "侧视",
+      "工位一",
+      "unit",
+      "mm",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "相机一",
+      "图像上部",
+      "垂直安装于产品线上方",
+      "相机二",
+      "图像下部",
+      "垂直安装于产品线下方",
+      "产品",
+      "水平橙色条带",
+      "贯穿图像中部",
+      "产品移动方向箭头",
+      "位于产品上方",
+      "水平向右",
+      "60",
+      "倾斜部件",
+      "位于相机一正下方",
+      "产品线上方",
+      "倾斜",
+      "位于相机二正上方",
+      "产品线下方"
+    ],
+    "source_file": "铨讯-鸿博FFC在线检测方案书-2026.03.30(2)_slide5.png",
+    "reextracted_at": "2026-10-19T09:25:03",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源一",
+      "type": "",
+      "angle": "60°",
+      "distance_to_object": "70±10mm",
+      "adjustable": false,
+      "position": "相机一左下方，斜向下照射产品"
+    },
+    {
+      "name": "光源二",
+      "type": "",
+      "angle": "60°",
+      "distance_to_object": "70±10mm",
+      "adjustable": false,
+      "position": "相机二右上方，斜向上照射产品"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "顶部中央，垂直安装于镜头上方",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "位于相机正下方，与相机同轴连接",
+      "parent_group": null
+    },
+    {
+      "name": "光源",
+      "position": "水平长条形，位于镜头下方、被测物上方，沿光轴方向延伸",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "底部中央，位于光源正下方，光轴垂足处",
+      "parent_group": null
+    },
+    {
+      "name": "表格",
+      "position": "左侧区域，含五行列：规格/参数及对应值",
+      "parent_group": null
+    },
+    {
+      "name": "安装示意图",
+      "position": "右侧主图区域，含部件与尺寸标注",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "光源",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "光源",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "被测物",
+      "target": "光源",
+      "line_style": "solid",
+      "color": "black",
+      "label": "240±10"
+    },
+    {
+      "source": "被测物",
+      "target": "相机",
+      "line_style": "solid",
+      "color": "black",
+      "label": "270±20"
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "YD Vision For Better Service；unit: mm；打光示意图；规格：相机 MV-CH250-90GC，镜头 25mm FA镜头，光源1 KBL-200-300-W，视野 140*140mm，单像素精度 0.027mm/pixel",
+  "meta": {
+    "schema_version": 1,
+    "project": "20260903 二维码识别视觉检测方案 华鑫(1)",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "20260903",
+      "二维码识别视觉检测方案",
+      "华鑫",
+      "slide5",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "unit",
+      "mm",
+      "规格",
+      "相机",
+      "MV-CH250-90GC",
+      "镜头",
+      "25mm",
+      "FA",
+      "光源",
+      "KBL-200-300-W",
+      "视野",
+      "140",
+      "140mm",
+      "单像素精度",
+      "0.027mm/pixel",
+      "顶部中央",
+      "垂直安装于镜头上方",
+      "位于相机正下方",
+      "与相机同轴连接",
+      "水平长条形",
+      "位于镜头下方",
+      "被测物上方",
+      "沿光轴方向延伸",
+      "被测物",
+      "底部中央",
+      "位于光源正下方",
+      "光轴垂足处",
+      "表格",
+      "左侧区域",
+      "含五行列",
+      "参数及对应值",
+      "安装示意图",
+      "右侧主图区域",
+      "含部件与尺寸标注"
+    ],
+    "source_file": "20260903-二维码识别视觉检测方案-华鑫(1)_slide5.png",
+    "reextracted_at": "2026-10-19T09:19:53",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "条形",
+      "angle": "",
+      "distance_to_object": "240±10mm",
+      "adjustable": false,
+      "position": "水平置于被测物上方，光轴垂直向下照射"
+    }
+  ]
+}

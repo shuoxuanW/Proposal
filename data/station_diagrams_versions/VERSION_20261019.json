@@ -1,0 +1,14 @@
+{
+  "version": "20261019",
+  "created_at": "2026-10-19T10:31:29",
+  "count": 37,
+  "json_count": 37,
+  "projects": 27,
+  "schema_version": 1,
+  "metadata_schema": 1,
+  "light_spec_files": 36,
+  "light_specs": 48,
+  "camera_wd_files": 1,
+  "source": "D:\\20261012\\data\\station_diagrams",
+  "notes": "VLM light_spec re-extraction + camera_working_distance + sidecar meta"
+}

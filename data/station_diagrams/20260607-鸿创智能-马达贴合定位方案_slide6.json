@@ -1,0 +1,144 @@
+{
+  "drawing_type": "打光示意图-下相机",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "位于装置最上方，垂直安装于镜头之上",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "位于相机下方，连接相机与光源组件",
+      "parent_group": null
+    },
+    {
+      "name": "光源1（9060红色环光）",
+      "position": "环绕镜头下方，呈环形结构，紧贴被测物上方",
+      "parent_group": null
+    },
+    {
+      "name": "被测物（马达底部）",
+      "position": "位于光源下方，水平放置，黑色背景",
+      "parent_group": null
+    },
+    {
+      "name": "参数表",
+      "position": "图像左侧，含规格与参数两列",
+      "parent_group": null
+    },
+    {
+      "name": "备注",
+      "position": "参数表下方",
+      "parent_group": null
+    },
+    {
+      "name": "YD Vision logo",
+      "position": "图像右上角",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "光源1",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源1",
+      "target": "被测物",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "被测物",
+      "target": "尺寸标注线（50±10）",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "50±10"
+    },
+    {
+      "source": "被测物",
+      "target": "尺寸标注线（150±10）",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "150±10"
+    }
+  ],
+  "layout_direction": "LR",
+  "note": "unit: mm；光源示意图正视图；Schematic diagram of setup (Front View)；备注：1. 拍摄马达的底部，黑色背景",
+  "meta": {
+    "schema_version": 1,
+    "project": "20260607 鸿创智能 马达贴合定位方案",
+    "drawing_type": "打光示意图-下相机",
+    "keywords": [
+      "20260607",
+      "鸿创智能",
+      "马达贴合定位方案",
+      "slide6",
+      "打光示意图",
+      "下相机",
+      "2D",
+      "侧视",
+      "unit",
+      "mm",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "备注",
+      "拍摄马达的底部",
+      "黑色背景",
+      "相机",
+      "位于装置最上方",
+      "垂直安装于镜头之上",
+      "镜头",
+      "位于相机下方",
+      "连接相机与光源组件",
+      "光源",
+      "9060",
+      "红色环光",
+      "环绕镜头下方",
+      "呈环形结构",
+      "紧贴被测物上方",
+      "被测物",
+      "马达底部",
+      "位于光源下方",
+      "水平放置",
+      "参数表",
+      "图像左侧",
+      "含规格与参数两列",
+      "参数表下方",
+      "YD",
+      "Vision",
+      "logo",
+      "图像右上角"
+    ],
+    "source_file": "20260607-鸿创智能-马达贴合定位方案_slide6.png",
+    "reextracted_at": "2026-10-19T09:19:04",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "环形",
+      "angle": "",
+      "distance_to_object": "50±10mm",
+      "adjustable": false,
+      "position": "环绕镜头下方，正对被测物"
+    }
+  ]
+}

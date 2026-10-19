@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>机器视觉解决方案书自动生成系统</title>
+<link rel="stylesheet" href="style.css?v=20261017e">
+</head>
+<body>
+<header>
+  <div class="brand">🤖 机器视觉解决方案书自动生成系统</div>
+  <div id="kb-status" class="kb-status">加载中…</div>
+</header>
+
+<main>
+  <section class="left">
+    <h2>1. 输入项目需求</h2>
+    <textarea id="req" spellcheck="false" placeholder="粘贴需求文本：客户名称 / 产品名称 / 产品尺寸 / 检测要求 / 光路布局描述"></textarea>
+    <div class="toolbar">
+      <select id="llm">
+        <option value="deepseek">DeepSeek（真实生成）</option>
+        <option value="mock">离线 Mock（快速预览）</option>
+      </select>
+      <button id="btn-sample" class="ghost">填入示例</button>
+    </div>
+    <div class="actions">
+      <button id="btn-generate" class="primary">生成 PPT 方案书</button>
+      <button id="btn-optic" class="ghost">仅生成光路示意图</button>
+    </div>
+    <div id="status" class="status">就绪</div>
+    <h2 style="margin-top:20px">3. 参考来源</h2>
+    <div id="sources" class="sources">—</div>
+    <h2 style="margin-top:20px">4. 校验结果</h2>
+    <div id="issues" class="issues">—</div>
+  </section>
+
+  <section class="right">
+    <div id="result" class="hidden">
+      <h2>自动生成图纸</h2>
+      <div id="diagram" class="diagram"></div>
+
+      <h2>PPT 方案书（8 页 · 按模板生成）</h2>
+      <div id="ppt-download" class="downloads"></div>
+      <div id="ppt-outline" class="ppt-outline"></div>
+
+      <h2>其它格式下载</h2>
+      <div id="downloads" class="downloads"></div>
+
+      <details>
+        <summary>查看网页版正文（Markdown）</summary>
+        <iframe id="preview" title="方案书正文预览"></iframe>
+      </details>
+    </div>
+    <div id="empty" class="empty">
+      <p>输入需求后点击「生成 PPT 方案书」，结果会显示在这里。</p>
+    </div>
+  </section>
+</main>
+
+<section class="library-panel">
+  <div class="library-head">
+    <h2>📚 历史工位图库 <span id="lib-count" class="badge">0</span></h2>
+    <div class="library-toolbar">
+      <input id="lib-query" placeholder="输入产品/工艺关键词，如：电池、陶瓷片、焊锡、胶路" spellcheck="false">
+      <button id="btn-lib-search" class="ghost">检索</button>
+      <button id="btn-lib-all" class="ghost">显示全部</button>
+    </div>
+  </div>
+  <div class="library-note">检索结果按相似度排序，低于 0.35 已隐藏。</div>
+  <div id="lib-grid" class="lib-grid"></div>
+</section>
+
+<section class="chat-panel">
+  <h2>💬 售前选型顾问（交互式问诊）</h2>
+  <div id="chat-log" class="chat-log">
+    <div class="chat-hint">输入机器视觉需求开始验证。示例：<em>检测电池螺丝有无漏装，产品560*460*120mm</em></div>
+  </div>
+  <div class="chat-toolbar">
+    <select id="chat-llm">
+      <option value="deepseek">DeepSeek（真实选型）</option>
+      <option value="mock">Mock（离线兜底）</option>
+    </select>
+    <input id="chat-input" placeholder="输入需求，如：检测陶瓷基板表面镀层气泡与凸点缺陷，精度0.01mm，视野50mm" spellcheck="false">
+    <button id="btn-chat" class="primary">发送</button>
+  </div>
+  <details class="debug-panel">
+    <summary>🔍 后台日志（召回详情 / 配套校验，不对客户展示）</summary>
+    <div id="debug-log" class="debug-log">暂无记录</div>
+  </details>
+</section>
+
+<script src="app.js?v=20261017e"></script>
+</body>
+</html>

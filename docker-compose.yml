@@ -1,0 +1,20 @@
+services:
+  app:
+    build: .
+    container_name: mv-proposal
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - MV_IMAGE_LIBRARY=/app/知识库数据
+      - MV_KNOWLEDGE=/app/data/knowledge
+      - MV_OUTPUT=/app/output
+      - MV_VECTORSTORE=/app/data/vector.db
+      - MV_MODEL_CACHE=/app/.model_cache
+      - HF_ENDPOINT=https://hf-mirror.com
+    volumes:
+      - ./知识库数据:/app/知识库数据
+      - ./data:/app/data
+      - ./output:/app/output
+      - ./.model_cache:/app/.model_cache

@@ -1,0 +1,123 @@
+{
+  "drawing_type": "安装示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机镜头",
+      "position": "图左上方，垂直安装于虚线光轴上",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "图左侧中部，斜向右下照射被测物",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "图左下方，水平放置于光路交点处",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机镜头",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": "380±10mm"
+    },
+    {
+      "source": "光源1",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": "70±10mm"
+    },
+    {
+      "source": "光源1",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": "65±5°"
+    },
+    {
+      "source": "相机镜头",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "工位一 边缘划痕光学方案；参数设置：曝光时间：100us；增益：-；gamma:；拍摄视野：180mm；像素精度：0.043mm/pixel；拍摄背景：；硬件名称 相关型号 数量；相机 4K 7u 黑白 1；采集卡 — —；镜头 CST-LS016F60-D66 1；调焦环 MT08 1；转接环 AT4224 1；延长管 — —；延长管 — —；滤镜 — —；光源1 CST-2LPG300-W-DI 1；光源控制器 CST-CPL48320C-2T 1；延长线 AC16P6-L1 1；东莞康视达自动化科技有限公司；www.cstmv.com；安装示意图",
+  "meta": {
+    "schema_version": 1,
+    "project": "20260812 电池外壳缺陷检测",
+    "drawing_type": "安装示意图",
+    "keywords": [
+      "20260812",
+      "电池外壳缺陷检测",
+      "slide6",
+      "安装示意图",
+      "2D",
+      "侧视",
+      "工位一",
+      "边缘划痕光学方案",
+      "参数设置",
+      "曝光时间",
+      "100us",
+      "增益",
+      "gamma",
+      "拍摄视野",
+      "180mm",
+      "像素精度",
+      "0.043mm/pixel",
+      "拍摄背景",
+      "硬件名称",
+      "相关型号",
+      "数量",
+      "相机",
+      "4K",
+      "7u",
+      "黑白",
+      "采集卡",
+      "镜头",
+      "CST-LS016F60-D66",
+      "调焦环",
+      "MT08",
+      "转接环",
+      "AT4224",
+      "延长管",
+      "滤镜",
+      "光源",
+      "CST-2LPG300-W-DI",
+      "光源控制器",
+      "CST-CPL48320C-2T",
+      "延长线",
+      "AC16P6-L1",
+      "东莞康视达自动化科技有限公司",
+      "www.cstmv.com",
+      "相机镜头",
+      "图左上方",
+      "垂直安装于虚线光轴上",
+      "图左侧中部",
+      "斜向右下照射被测物",
+      "被测物",
+      "图左下方",
+      "水平放置于光路交点处"
+    ],
+    "source_file": "20260812 电池外壳缺陷检测_slide6.png",
+    "reextracted_at": "2026-10-19T09:19:41",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "条形",
+      "angle": "65±5°",
+      "distance_to_object": "70±10mm",
+      "adjustable": false,
+      "position": "位于被测物左上方，斜向照射"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "device_type": "light_source",
+  "name": "白色环形光源90°",
+  "brand": "",
+  "description": "白色环形光源90°",
+  "params": {},
+  "tags": [
+    "light_source"
+  ],
+  "view": "",
+  "angle": "90°",
+  "color": "白"
+}

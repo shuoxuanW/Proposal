@@ -1,0 +1,120 @@
+{
+  "drawing_type": "打光示意图-相机2",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机镜头",
+      "position": "顶部中央，垂直光轴上方",
+      "parent_group": null
+    },
+    {
+      "name": "光源1",
+      "position": "相机镜头下方，被测物上方，位于光轴两侧对称位置",
+      "parent_group": null
+    },
+    {
+      "name": "被测物",
+      "position": "底部中央，垂直光轴下方",
+      "parent_group": null
+    },
+    {
+      "name": "CST",
+      "position": "相机镜头内部标识",
+      "parent_group": "相机镜头"
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机镜头",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源1",
+      "target": "被测物",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "光源1",
+      "target": "相机镜头",
+      "line_style": "dashed",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "配置：相机 2000彩色全局相机；镜头 50FA镜头+5mm接圈；光源 环形光源；视野 60mm*40mm；单像素精度 0.01mm/pixel；注：此相机检测壳体外壁底部。单位：mm；242±10mm；70±10mm；光源自示意图正视图；Schematic diagram of setup (Front View)；YD Vision For Better Service",
+  "meta": {
+    "schema_version": 1,
+    "project": "电池壳体检测",
+    "drawing_type": "打光示意图-相机2",
+    "keywords": [
+      "电池壳体检测",
+      "slide7",
+      "打光示意图",
+      "相机",
+      "2D",
+      "侧视",
+      "配置",
+      "2000",
+      "彩色全局相机",
+      "镜头",
+      "50FA",
+      "5mm",
+      "接圈",
+      "光源",
+      "环形光源",
+      "视野",
+      "60mm",
+      "40mm",
+      "单像素精度",
+      "0.01mm/pixel",
+      "此相机检测壳体外壁底部",
+      "单位",
+      "mm",
+      "242",
+      "10mm",
+      "70",
+      "光源自示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "相机镜头",
+      "顶部中央",
+      "垂直光轴上方",
+      "相机镜头下方",
+      "被测物上方",
+      "位于光轴两侧对称位置",
+      "被测物",
+      "底部中央",
+      "垂直光轴下方",
+      "CST",
+      "相机镜头内部标识"
+    ],
+    "source_file": "电池壳体检测_slide7.png",
+    "reextracted_at": "2026-10-19T09:22:05",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "环形光源",
+      "angle": "",
+      "distance_to_object": "70±10mm",
+      "adjustable": false,
+      "position": "位于相机镜头与被测物之间，正对被测物"
+    }
+  ]
+}

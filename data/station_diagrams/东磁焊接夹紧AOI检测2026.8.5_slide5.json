@@ -1,0 +1,125 @@
+{
+  "drawing_type": "打光示意图-相机1",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "右上角，倾斜安装于支架上",
+      "parent_group": null
+    },
+    {
+      "name": "条形光源",
+      "position": "底部水平放置，位于被测物下方",
+      "parent_group": null
+    },
+    {
+      "name": "被测物（引线）",
+      "position": "位于条形光源上方，紧贴其上表面",
+      "parent_group": null
+    },
+    {
+      "name": "光路",
+      "position": "从条形光源发出，经被测物反射后斜向上射入相机镜头",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "条形光源",
+      "target": "被测物（引线）",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "10±20mm"
+    },
+    {
+      "source": "被测物（引线）",
+      "target": "相机",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "170±20mm"
+    },
+    {
+      "source": "条形光源",
+      "target": "相机",
+      "line_style": "dashed",
+      "color": "blue",
+      "label": "90±20mm"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "配置：相机-2000万卷帘网口彩色相机；镜头-50FA镜头+15mm接圈；光源-条形光源；视野-38mm*25mm；单像素精度-0.007mm/pixel；注：此相机检测部分为1. 检测产品引线有无放入底座。2. 检测引线长短，是否漏剪。3. 检测是否漏焊，漏夹。4. 检测产品引线根数。单位：mm；光源示意图正视图；Schematic diagram of setup (Front View)；YD Vision For Better Service",
+  "meta": {
+    "schema_version": 1,
+    "project": "东磁焊接夹紧AOI检测2026.8.5",
+    "drawing_type": "打光示意图-相机1",
+    "keywords": [
+      "东磁焊接夹紧",
+      "AOI",
+      "检测",
+      "2026.8.5_slide5",
+      "打光示意图",
+      "相机",
+      "2D",
+      "侧视",
+      "配置",
+      "2000",
+      "万卷帘网口彩色相机",
+      "镜头",
+      "50FA",
+      "15mm",
+      "接圈",
+      "光源",
+      "条形光源",
+      "视野",
+      "38mm",
+      "25mm",
+      "单像素精度",
+      "0.007mm/pixel",
+      "此相机检测部分为",
+      "检测产品引线有无放入底座",
+      "检测引线长短",
+      "是否漏剪",
+      "检测是否漏焊",
+      "漏夹",
+      "检测产品引线根数",
+      "单位",
+      "mm",
+      "光源示意图正视图",
+      "Schematic",
+      "diagram",
+      "of",
+      "setup",
+      "Front",
+      "View",
+      "YD",
+      "Vision",
+      "For",
+      "Better",
+      "Service",
+      "右上角",
+      "倾斜安装于支架上",
+      "底部水平放置",
+      "位于被测物下方",
+      "被测物",
+      "引线",
+      "位于条形光源上方",
+      "紧贴其上表面",
+      "光路",
+      "从条形光源发出",
+      "经被测物反射后斜向上射入相机镜头"
+    ],
+    "source_file": "东磁焊接夹紧AOI检测2026.8.5_slide5.png",
+    "reextracted_at": "2026-10-19T09:21:00",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "条形光源",
+      "type": "条形",
+      "angle": "",
+      "distance_to_object": "10±20mm",
+      "adjustable": false,
+      "position": "位于被测物正下方，平行于底座"
+    }
+  ]
+}

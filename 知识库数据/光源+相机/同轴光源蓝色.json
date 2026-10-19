@@ -1,0 +1,13 @@
+{
+  "device_type": "light_source",
+  "name": "同轴光源蓝色",
+  "brand": "",
+  "description": "同轴光源蓝色",
+  "params": {},
+  "tags": [
+    "light_source"
+  ],
+  "view": "",
+  "angle": "",
+  "color": "蓝"
+}

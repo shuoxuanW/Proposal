@@ -1,0 +1,13 @@
+{
+  "device_type": "camera",
+  "name": "HK-2500",
+  "brand": "",
+  "description": "HK-2500 万全局 - 万 兆网口 - MV-CH250-90GM/C 备注 : 万兆网相机，网线需要用万兆网线；工控机需要加万兆 网卡",
+  "params": {
+    "备注": "万兆网相机"
+  },
+  "tags": [
+    "工业相机"
+  ],
+  "source": "相机&工控机&显示器图纸(1)(1).pptx#slide13"
+}

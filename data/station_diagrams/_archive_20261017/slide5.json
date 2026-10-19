@@ -1,0 +1,58 @@
+{
+  "drawing_type": "机器视觉系统安装示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "CST相机",
+      "position": "图像顶部中央，垂直悬挂",
+      "parent_group": null
+    },
+    {
+      "name": "左侧光源",
+      "position": "中下部左侧，倾斜安装于水平基线之上",
+      "parent_group": null
+    },
+    {
+      "name": "右侧光源",
+      "position": "中下部右侧，倾斜安装于水平基线之上",
+      "parent_group": null
+    },
+    {
+      "name": "被测物体",
+      "position": "底部中央，位于两光源正下方",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "CST相机",
+      "target": "被测物体",
+      "line_style": "dashed",
+      "color": "gray",
+      "label": ""
+    },
+    {
+      "source": "右侧光源",
+      "target": "水平基线",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "20~45° 可调"
+    },
+    {
+      "source": "左侧光源",
+      "target": "右侧光源",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "140mm"
+    },
+    {
+      "source": "右侧光源",
+      "target": "被测物体",
+      "line_style": "solid",
+      "color": "blue",
+      "label": "20mm"
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "CST Machine Vision"
+}

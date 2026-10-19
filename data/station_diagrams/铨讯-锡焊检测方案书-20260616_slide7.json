@@ -1,0 +1,146 @@
+{
+  "drawing_type": "打光示意图",
+  "view_type": "2D侧视",
+  "component_list": [
+    {
+      "name": "相机",
+      "position": "最上方垂直安装",
+      "parent_group": null
+    },
+    {
+      "name": "镜头",
+      "position": "位于相机正下方，连接相机",
+      "parent_group": null
+    },
+    {
+      "name": "同轴光源",
+      "position": "位于镜头下方，内部含反射结构，光轴穿过中心",
+      "parent_group": null
+    },
+    {
+      "name": "条形光源",
+      "position": "左右对称布置于同轴光源下方两侧，倾斜朝向中心",
+      "parent_group": null
+    },
+    {
+      "name": "被测物体平台",
+      "position": "最底部蓝色矩形区域，位于光路末端",
+      "parent_group": null
+    }
+  ],
+  "connection_list": [
+    {
+      "source": "相机",
+      "target": "镜头",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "镜头",
+      "target": "同轴光源",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "同轴光源",
+      "target": "被测物体平台",
+      "line_style": "dashed",
+      "color": "red",
+      "label": ""
+    },
+    {
+      "source": "条形光源",
+      "target": "被测物体平台",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    },
+    {
+      "source": "条形光源",
+      "target": "同轴光源区域",
+      "line_style": "solid",
+      "color": "black",
+      "label": ""
+    }
+  ],
+  "layout_direction": "TB",
+  "note": "规格：相机-500万网口彩色相机；镜头-35mmFA镜头；光源1-条型光*2；光源2-同轴光；视野-53*44mm；单像素精度-0.021mm/pixel；注：光源需30-60°角度可调！单位：mm",
+  "meta": {
+    "schema_version": 1,
+    "project": "铨讯 锡焊检测方案书 20260616",
+    "drawing_type": "打光示意图",
+    "keywords": [
+      "铨讯",
+      "锡焊检测方案书",
+      "20260616_slide7",
+      "打光示意图",
+      "2D",
+      "侧视",
+      "规格",
+      "相机",
+      "500",
+      "万网口彩色相机",
+      "镜头",
+      "35mmFA",
+      "光源",
+      "条型光",
+      "同轴光",
+      "视野",
+      "53",
+      "44mm",
+      "单像素精度",
+      "0.021mm/pixel",
+      "光源需",
+      "30-60",
+      "角度可调",
+      "单位",
+      "mm",
+      "最上方垂直安装",
+      "位于相机正下方",
+      "连接相机",
+      "同轴光源",
+      "位于镜头下方",
+      "内部含反射结构",
+      "光轴穿过中心",
+      "条形光源",
+      "左右对称布置于同轴光源下方两侧",
+      "倾斜朝向中心",
+      "被测物体平台",
+      "最底部蓝色矩形区域",
+      "位于光路末端"
+    ],
+    "source_file": "铨讯-锡焊检测方案书-20260616_slide7.png",
+    "reextracted_at": "2026-10-19T10:24:38",
+    "reextract_source": "VLM light_spec_list pass"
+  },
+  "light_spec_list": [
+    {
+      "name": "光源1",
+      "type": "条形",
+      "angle": "30-60°",
+      "distance_to_object": "40mm",
+      "direction": "down",
+      "adjustable": true,
+      "position": "左右对称置于工件两侧"
+    },
+    {
+      "name": "光源2",
+      "type": "同轴",
+      "angle": "",
+      "distance_to_object": "270mm",
+      "direction": "down",
+      "adjustable": false,
+      "position": "位于镜头内部，与光轴重合"
+    }
+  ],
+  "camera_working_distance": "300±10mm",
+  "dimension_list": [
+    "300±10",
+    "270",
+    "40",
+    "60",
+    "60"
+  ]
+}
